@@ -11,11 +11,11 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://penguin72huhu.github.io',
+  baseUrl: '/StreamToolkitDocs/',
 
-  organizationName: 'penguinhuhu',
-  projectName: 'streamingTool-docs',
+  organizationName: 'penguin72huhu',
+  projectName: 'StreamToolkitDocs',
 
   onBrokenLinks: 'throw',
 
