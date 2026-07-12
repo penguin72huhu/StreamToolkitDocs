@@ -1,0 +1,168 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* 主題色取自 App 本體 accent 紫 #5058d8 */
+  --ifm-color-primary: #5058d8;
+  --ifm-color-primary-dark: #3b44d1;
+  --ifm-color-primary-darker: #3640c6;
+  --ifm-color-primary-darkest: #2d35a3;
+  --ifm-color-primary-light: #656cdf;
+  --ifm-color-primary-lighter: #7178e1;
+  --ifm-color-primary-lightest: #969be9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* 暗色系用 App 暗色 accent #7c83fd */
+  --ifm-color-primary: #7c83fd;
+  --ifm-color-primary-dark: #5e67fc;
+  --ifm-color-primary-darker: #4f59fc;
+  --ifm-color-primary-darkest: #232ffa;
+  --ifm-color-primary-light: #9a9ffe;
+  --ifm-color-primary-lighter: #a9adfe;
+  --ifm-color-primary-lightest: #d5d7ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* ===== 試用版 / 正式版比較表 ===== */
+/* 配色取自 App 本體：accent 紫 #7c83fd(暗)/#5058d8(亮) */
+:root {
+  --et-accent: #5058d8;
+  --et-accent-soft: rgba(80, 88, 216, 0.08);
+  --et-accent-head: rgba(80, 88, 216, 0.12);
+  --et-neutral-head: var(--ifm-color-emphasis-100);
+}
+[data-theme='dark'] {
+  --et-accent: #7c83fd;
+  --et-accent-soft: rgba(124, 131, 253, 0.1);
+  --et-accent-head: rgba(124, 131, 253, 0.16);
+  --et-neutral-head: var(--ifm-color-emphasis-200);
+}
+
+.edition-table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+}
+
+.edition-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: table;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.edition-table th,
+.edition-table td {
+  border: none;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.7rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.edition-table thead th {
+  font-weight: 700;
+  font-size: 1.02rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.edition-table th.feat-col {
+  background: var(--et-neutral-head);
+  color: var(--ifm-heading-color);
+  text-align: left;
+  width: 46%;
+}
+
+.edition-table th.trial-col {
+  background: var(--et-neutral-head);
+  color: var(--ifm-color-emphasis-700);
+  width: 27%;
+}
+
+.edition-table th.pro-col {
+  background: var(--et-accent);
+  color: #fff;
+  width: 27%;
+}
+
+.edition-table .col-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+}
+
+/* 關掉 Infima 預設斑馬紋 */
+.edition-table tbody tr,
+.edition-table tbody tr:nth-child(2n) {
+  background: transparent;
+}
+
+.edition-table tbody tr:not(.section-row) td:first-child {
+  text-align: left;
+  font-weight: 500;
+  color: var(--ifm-heading-color);
+}
+
+/* 分類分隔列 */
+.edition-table .section-row td {
+  background: var(--et-accent-head);
+  color: var(--et-accent);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 1.05rem;
+  text-transform: none;
+}
+
+/* Pro 欄整欄淡底，凸顯 */
+.edition-table tbody .pro-cell {
+  background: var(--et-accent-soft);
+  font-weight: 500;
+}
+
+/* 圓點 */
+.edition-table .dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.edition-table .dot.ok {
+  background: var(--et-accent);
+}
+
+.edition-table .dot.no {
+  background: var(--ifm-color-emphasis-400);
+}
+
+.edition-table .dash {
+  display: inline-block;
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--ifm-color-emphasis-400);
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.edition-table .trial-cell {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.edition-table tbody tr:last-child td {
+  border-bottom: none;
+}
