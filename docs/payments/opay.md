@@ -43,7 +43,7 @@ sidebar_position: 1
 
    ![複製幕後通知網址](./opay-img/step4-1.png)
 
-2. 回到 [歐付寶官網](https://www.opay.tw/)，點選 **我要收款** > **實況主收款設定**
+2. 回到 [歐付寶官網](https://www.opay.tw/)，點選 **我要收款** → **實況主收款設定**
 
    ![我要收款選單中的實況主收款設定](./opay-img/step4-2.png)
 
