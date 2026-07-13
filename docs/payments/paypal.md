@@ -2,71 +2,71 @@
 sidebar_position: 3
 ---
 
-# PayPal 設定
+# PayPal Settings
 
-Stream Toolkit 使用 Webhook 接收 PayPal 付款通知，不需要填入 API 金鑰。
+Stream Toolkit uses Webhooks to receive PayPal payment notifications, so there is no need to enter an API key.
 
-## 步驟一：在 Stream Toolkit 取得 Webhook 網址
+## Step 1: Get the Webhook URL in Stream Toolkit
 
-1. 開啟 Stream Toolkit
-2. 點選左下選單的 **設定**
-3. 找到 **贊助平台串接** → **PayPal**
-4. 點擊 **取得網址** 按鈕
-5. 網址產生後，點擊 **複製** 按鈕
+1. Open Stream Toolkit
+2. Click **Settings** in the bottom left menu
+3. Find **Donation Platform Integration** → **PayPal**
+4. Click the **Get URL** button
+5. Once the URL is generated, click the **Copy** button
 
 ![Get PayPal webhook URL in Stream Toolkit](./paypal-img/step1.png)
 
-:::warning 注意
-Webhook 網址含有專屬 token，請勿公開分享。若懷疑外洩，可點擊**重新取得網址**換發新網址（舊網址會立即失效）。
+:::warning Warning
+The Webhook URL contains a private token; please do not share it publicly. If you suspect it has been leaked, you can click **Regenerate URL** to issue a new one (the old URL will become invalid immediately).
 :::
 
-## 步驟二：登入 PayPal 開發者後台
+## Step 2: Log in to the PayPal Developer Dashboard
 
-1. 前往 [PayPal Developer](https://developer.paypal.com)
-2. 點擊右上角 **Log in to Dashboard**，用 PayPal 帳號登入
-3. 登入後點擊右上角的 **`</>`** 按鈕進入開發者後台
+1. Go to [PayPal Developer](https://developer.paypal.com)
+2. Click **Log in to Dashboard** in the top right corner and log in with your PayPal account
+3. After logging in, click the **`</>`** button in the top right corner to enter the developer backend
 
 ![PayPal developer button at top right](./paypal-img/step2.png)
 
-## 步驟三：切換到 Live 模式
+## Step 3: Switch to Live Mode
 
-確認左側選單上方的模式開關是 **Live**。如果顯示為 **Sandbox**（測試模式），才需要切換：
+Make sure the mode switch above the left menu is set to **Live**. You only need to switch if it shows **Sandbox** (test mode):
 
-1. 找到左側選單上方的切換開關
-2. 點擊切換為 **Live**
+1. Locate the toggle switch above the left menu
+2. Click to switch to **Live**
 
 ![Sandbox/Live toggle](./paypal-img/step3.png)
 
-## 步驟四：前往 Webhooks 設定
+## Step 4: Go to Webhooks Settings
 
-1. 左側選單點擊 **Apps & Credentials**
+1. Click **Apps & Credentials** in the left menu
 
    ![Apps & Credentials in sidebar](./paypal-img/step4-1.png)
 
-2. 頁面中找到 **Manage Webhooks** 按鈕，點擊進入
+2. Locate the **Manage Webhooks** button on the page and click it to enter
 
    ![Manage Webhooks button](./paypal-img/step4-2.png)
 
-3. 滑到頁面最下方，點擊 **Add Webhook**
+3. Scroll to the very bottom of the page and click **Add Webhook**
 
    ![Add Webhook button](./paypal-img/step4-3.png)
 
-## 步驟五：新增 Webhook
+## Step 5: Add Webhook
 
-1. 在 **Webhook URL** 欄位貼上剛才從 Stream Toolkit 複製的網址
-2. 在 **Event types** 找到 **Payments & payouts** 分類，勾選：
+1. Paste the URL you just copied from Stream Toolkit into the **Webhook URL** field
+2. In **Event types**, find the **Payments & payouts** category and check:
    - ✅ `Payment capture completed`
    - ✅ `Payment sale completed`
-3. 點擊 **Save**
+3. Click **Save**
 
 {/* TODO: 截圖 — Add Webhook 設定頁 */}
 
-設定完成後，觀眾透過 PayPal 付款，Stream Toolkit 就會即時收到通知。
+Once the settings are complete, when viewers make payments through PayPal, Stream Toolkit will receive notifications in real time.
 
-## 常見問題
+## FAQ
 
-**Q：Sandbox 模式可以測試嗎？**
-可以。在 Sandbox 模式下同樣可以新增 Webhook，用於測試付款流程，但不會收到真實款項。
+**Q: Can I test in Sandbox mode?**
+Yes. You can also add a Webhook in Sandbox mode to test the payment process, but no real money will be received.
 
-**Q：Webhook 網址重新產生後怎麼辦？**
-需要回到 PayPal 後台，把舊的 Webhook 網址改成新的。
+**Q: What should I do if the Webhook URL is regenerated?**
+You need to return to the PayPal Dashboard and replace the old Webhook URL with the new one.

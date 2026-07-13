@@ -3,85 +3,85 @@ sidebar_position: 1
 slug: /
 ---
 
-# Stream Toolkit 介紹
+# Stream Toolkit Introduction
 
-左側選單依功能分類。新手建議從 [快速開始](./getting-started/installation) 開始閱讀。
-
----
-
-Stream Toolkit 是專為實況主打造的萬用直播工具箱，告別手忙腳亂的多網頁切換。
-
-- **即時翻譯**：內建聊天室與語音雙向翻譯，輕鬆與全球觀眾互動。
-- **全能整合**：集投票、抽獎、目標條、贊助通知與實況效果板於一體。
-- **外觀自訂**：支援 CSS 客製化與 Steam 工作坊，自由變換風格。
-- **快速上手**：一鍵產生 Overlay 網址，貼進 OBS 即可直接使用。
+The left menu is categorized by function. Beginners are recommended to start reading from [Quick Start](./getting-started/installation).
 
 ---
 
-## 🌍 即時聊天室翻譯
+Stream Toolkit is an all-in-one streaming toolbox built for content creators, helping you avoid constantly switching between multiple websites.
 
-整合 Twitch 與 YouTube 聊天室訊息。
+- **Real-Time Translation**: Built-in chat and speech translation makes it easy to communicate with viewers around the world.
+- **All-in-One Features**: Polls, giveaways, goal bars, donation alerts, and the Media Board are integrated into a single application.
+- **Customization**: Supports CSS customization and Steam Workshop themes so you can freely change the appearance.
+- **Easy Setup**: Generate overlay URLs with a single click and simply paste them into OBS.
 
-自動翻譯外語訊息，讓你更輕鬆地與世界各地的觀眾交流。
+---
 
-支援頭像、徽章、平台圖示顯示，以及完整 CSS 客製化與 Steam Workshop 主題分享。
+## 🌍 Real-Time Chat Translation
 
-## 🎙️ 語音翻譯字幕
+Integrate Twitch and YouTube chat messages into one place.
 
-按住快捷鍵開始錄音。
+Automatically translate foreign-language messages and communicate more easily with viewers around the world.
 
-自動將發言翻譯成指定語言並顯示於直播畫面，讓不同語言的觀眾也能輕鬆理解你的內容。
+Supports avatars, badges, platform icons, full CSS customization, and Steam Workshop theme sharing.
 
-## 🎨 Steam Workshop 主題
+## 🎙️ Translation Subtitles
 
-下載社群製作的主題，或打造屬於自己的 Overlay 風格。
+Hold a hotkey to start recording.
 
-從聊天室到目標條、贊助通知與計時器，都能自由調整外觀與動畫效果，讓你的直播畫面不再和別人一模一樣。
+Automatically translate your speech into the target language and display it on your stream, making your content easier to understand for viewers who speak different languages.
 
-支援 Steam Workshop 分享與下載。
+## 🎨 Steam Workshop Themes
 
-## 🎮 常用直播工具一次整合
+Download community-created themes or create your own overlay style.
 
-內建多種直播常用功能：
+From chat overlays to goal bars, donation alerts, and timers, you can freely customize appearances and animations to make your stream truly unique.
 
-- 轉盤
-- 即時投票 / 抽獎
-- Twitch 目標條
-- 贊助條 / 贊助通知 / 贊助紀錄板
-- 計時器
-- 時鐘
-- 點歌
-- 實況效果板（圖片 / 影片 / 音效）
-- 表情符號牆
-- 精華標記
+Supports Steam Workshop sharing and downloads.
 
-不再需要安裝多個插件或開啟多個網頁工具。
+## 🎮 All Your Streaming Tools in One Place
 
-## ⚡ 專為 OBS 設計
+Built-in streaming tools include:
 
-每個功能都提供獨立的 OBS 網址，設定完成後複製貼上即可使用。
+- Spin Wheel
+- Live Polls / Giveaways
+- Twitch Goal Bar
+- Donation Goal Bar / Donation Alerts / Donation Board
+- Timer
+- Clock
+- Song Requests
+- Media Board (Images / Videos / Sounds)
+- Emote Wall
+- Highlight Marker
 
-聊天室、目標條、計時器、贊助通知等元件皆可獨立運作，想用什麼開什麼，用不到的功能不會影響效能。
+No more installing multiple plugins or opening several web-based tools.
 
-減少在多個網站、插件與工具之間來回切換，把時間留給直播本身。
+## ⚡ Designed for OBS
 
-## 🔗 目前支援的平台與服務（持續新增）
+Every feature provides its own OBS URL, allowing you to copy and paste it directly into OBS.
 
-**直播平台**
+Chat overlays, goal bars, timers, donation alerts, and other components can run independently, so you only enable what you need without affecting performance.
+
+Spend less time switching between websites, plugins, and tools, and focus more on streaming.
+
+## 🔗 Supported Platforms and Services (More Coming Soon)
+
+**Streaming Platforms**
 - Twitch
 - YouTube Live
 
-**翻譯服務**
+**Translation Services**
 - DeepL
 - MyMemory
 
-**語音辨識**
-- Whisper（本機離線模型）
+**Speech Recognition**
+- Whisper (Local Offline Model)
 
-**金流與贊助**
+**Donations and Payments**
 - Twitch Bits
-- YouTube 超級留言、超級貼圖
+- YouTube Super Chat & Super Stickers
 - PayPal
 - Stripe
-- 歐付寶
-- 綠界
+- O'Pay
+- ECPay

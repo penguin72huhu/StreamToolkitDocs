@@ -2,26 +2,26 @@
 sidebar_position: 2
 ---
 
-# Twitch 設定
+# Twitch Settings
 
-Stream Toolkit 使用 OAuth 授權連結你的 Twitch 帳號，不需要手動填入金鑰。
+Stream Toolkit uses OAuth authorization to connect your Twitch account, so there is no need to manually enter a key.
 
-## 步驟一：連結 Twitch 帳號
+## Step 1: Connect Twitch Account
 
-1. 開啟 Stream Toolkit
-2. 點選左下選單的 **設定**
-3. 平台連接中找到 **Twitch**，並點選 **連結帳號**
-4. 瀏覽器會自動開啟 Twitch 授權頁面
-5. 登入並點擊 **授權**
+1. Open Stream Toolkit
+2. Click **Settings** in the bottom left menu
+3. Find **Twitch** under Platform Connections and click **Connect Account**
+4. The browser will automatically open the Twitch authorization page
+5. Log in and click **Authorize**
 
-授權完成後，Stream Toolkit 會自動取得所需的存取金鑰。
+Once authorized, Stream Toolkit will automatically obtain the required access token.
 
 {/* TODO: 截圖 — Twitch 授權 */}
 
-## 常見問題
+## FAQ
 
-**Q：授權後沒有反應？**
-確認瀏覽器沒有封鎖彈出視窗。Stream Toolkit 會開啟一個新視窗完成授權。
+**Q: No response after authorization?**
+Make sure your browser is not blocking pop-up windows. Stream Toolkit will open a new window to complete the authorization.
 
-**Q：需要 Twitch 合作夥伴或聯盟主才能用嗎？**
-不需要。一般帳號也可以使用聊天室功能。訂閱/Bits 目標需要開通訂閱功能。
+**Q: Do I need to be a Twitch Partner or Affiliate to use it?**
+No. Normal accounts can also use the chat features. Subscription/Bits goals require subscription features to be unlocked.

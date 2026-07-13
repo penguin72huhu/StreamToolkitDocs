@@ -2,47 +2,47 @@
 sidebar_position: 2
 ---
 
-# 如何在 OBS 加入來源
+# How to Add Sources in OBS
 
-Stream Toolkit 的大部分功能都需要在 OBS 中加入「瀏覽器來源」才能顯示在直播畫面上。
+Most features of Stream Toolkit require adding a "Browser Source" in OBS to display on your live stream.
 
-## 步驟一：複製功能網址
+## Step 1: Copy the Feature URL
 
-在 Stream Toolkit 中，每個功能頁面都會顯示對應的本機網址，格式為：
+In Stream Toolkit, each feature page displays its corresponding local URL, formatted as:
 
 ```
 http://127.0.0.1:7272/feature-name
 ```
 
-複製你想加入的功能網址。
+Copy the feature URL you want to add.
 
-## 步驟二：在 OBS 新增瀏覽器來源
+## Step 2: Add a Browser Source in OBS
 
-1. 在 OBS 的 **來源** 區塊，點擊下方的 **+** 按鈕
-2. 選擇 **瀏覽器**
-3. 選擇 **建立新的**，輸入來源名稱（例如「贊助條」），點擊 **確定**
-4. 在 **URL** 欄位貼上步驟一複製的網址
-5. 依需求調整 **寬度** 與 **高度**
-6. 點擊 **確定**
+1. In the **Sources** section of OBS, click the **+** button at the bottom
+2. Select **Browser**
+3. Select **Create new**, enter a name for the source (e.g., "Donation Goal Bar"), and click **OK**
+4. Paste the URL copied from Step 1 into the **URL** field
+5. Adjust the **Width** and **Height** as needed
+6. Click **OK**
 
 {/* TODO: 截圖 — OBS 新增瀏覽器來源 */}
 
-## 需要勾選「使用 OBS 控制音訊」的功能
+## Features that Require Checking "Control Audio via OBS" below
 
-以下功能包含音訊輸出，必須在瀏覽器來源的設定中勾選 **使用 OBS 控制音訊**，聲音才能正確出現在直播中：
+Includes audio output; you must check **Control Audio via OBS** in the browser source settings for the sound to properly appear in the live stream:
 
-- **實況效果板** — 影片、音效
-- **贊助通知**
-- **點歌**
+- **Media Board** — Video, Sound
+- **Donation Alerts**
+- **Song Requests**
 
-勾選方式：
-1. 在 OBS 來源列表中，對該瀏覽器來源點擊右鍵
-2. 選擇 **屬性**
-3. 找到 **使用 OBS 控制音訊** 並勾選
-4. 點擊 **確定**
+How to check:
+1. In the OBS sources list, right-click the browser source
+2. Select **Properties**
+3. Find **Control Audio via OBS** and check it
+4. Click **OK**
 
 {/* TODO: 截圖 — 勾選「使用 OBS 控制音訊」 */}
 
 :::tip
-若勾選後仍沒有聲音，確認 OBS 的混音器中該來源沒有被靜音。
+If there is still no sound after checking, confirm that the source is not muted in the OBS mixer.
 :::

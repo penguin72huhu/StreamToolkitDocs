@@ -2,69 +2,69 @@
 sidebar_position: 3
 ---
 
-# Stripe 設定
+# Stripe Settings
 
-Stream Toolkit 透過 Webhook 接收 Stripe 付款通知。設定分為兩個部分：從 app 取得 Webhook 網址，以及在 Stripe 後台完成串接。
+Stream Toolkit receives Stripe payment notifications via Webhooks. The setup consists of two parts: obtaining the Webhook URL from the app, and completing the integration in the Stripe Dashboard.
 
-## 步驟一：在 Stream Toolkit 取得 Webhook 網址
+## Step 1: Get the Webhook URL in Stream Toolkit
 
-1. 開啟 Stream Toolkit
-2. 點選左下選單的 **設定** → **贊助平台串接** → **Stripe**（點擊展開）
-3. 看到 **Webhook URL**，格式如下：
+1. Open Stream Toolkit
+2. Click **Settings** in the bottom left menu → **Donation Platform Integration** → **Stripe** (Click to expand)
+3. You will see the **Webhook URL**, formatted as follows:
    ```
    https://<worker>/stripe/webhook/<your userId>
    ```
-4. 點擊 **複製** 按鈕，儲存這個網址備用
+4. Click the **Copy** button and save this URL for later use
 
 ![Get webhook URL](./stripe-img/step1.png)
 
-## 步驟二：在 Stripe 後台新增 Webhook
+## Step 2: Add a Webhook in the Stripe Dashboard
 
-1. 前往 [Stripe Dashboard](https://dashboard.stripe.com)，登入帳號
-2. 點擊左下角 **開發人員** → **Webhook**
+1. Go to [Stripe Dashboard](https://dashboard.stripe.com) and log in to your account
+2. Click **Developers** → **Webhooks** in the bottom left corner
 
 ![Stripe webhook list page](./stripe-img/step2-1.png)
 
-3. 點擊 **添加接收端**
+3. Click **Add endpoint**
 
 ![Add destination](./stripe-img/step2-2.png)
 
-4. 填寫以下資訊：
-   - **事件**：搜尋並勾選 `checkout.session.completed`（只需這一個）
+4. Fill in the following information:
+   - **Events**: Search for and check `checkout.session.completed` (only this one is needed)
 
    ![Select events](./stripe-img/step2-3.png)
 
-   - **接收端類型**：選擇 **Webhook 端點**
+   - **Endpoint type**: Select **Webhook endpoint**
 
    ![Select destination type](./stripe-img/step2-4.png)
 
-   - **接收端名稱**：隨意填寫（例如 `Stream Toolkit`）
-   - **端點 URL**：貼上步驟一複製的 Webhook 網址
+   - **Endpoint name**: Fill in anything you like (e.g., `Stream Toolkit`)
+   - **Endpoint URL**: Paste the Webhook URL copied from Step 1
 
    ![Enter name and URL](./stripe-img/step2-5.png)
 
-5. 點擊 **創建目的地**
+5. Click **Add endpoint**
 
-## 步驟三：填入簽名密鑰
+## Step 3: Enter the Signing Secret
 
-1. Webhook 建立完成後，頁面會顯示 **簽名密鑰**，格式為 `whsec_...`
-2. 複製這串密鑰
-3. 回到 Stream Toolkit 的 Stripe 設定區
-4. 將密鑰貼入 **Webhook 簽章密鑰** 欄位
-5. 點擊 **儲存**
+1. Once the Webhook is created, the page will display the **Signing Secret** in the format `whsec_...`
+2. Copy this secret
+3. Return to the Stripe settings section in Stream Toolkit
+4. Paste the secret into the **Webhook Signing Secret** field
+5. Click **Save**
 
-連接狀態變為綠色即代表設定成功。
+The setup is successful when the connection status turns green.
 
 ![Paste signing secret](./stripe-img/step3.png)
 
-## 完成
+## Done
 
-設定完成後，觀眾透過你的 Stripe **Payment Link** 付款，Stream Toolkit 就會即時收到通知並顯示贊助。
+Once the setup is complete, when viewers make payments through your Stripe **Payment Link**, Stream Toolkit will receive real-time notifications and display the donation.
 
-## 常見問題
+## FAQ
 
-**Q：在哪裡建立 Payment Link？**
-前往 Stripe Dashboard → **Payment Links** → **建立 Payment Link**，設定好金額後分享連結給觀眾即可。
+**Q: Where can I create a Payment Link?**
+Go to Stripe Dashboard → **Payment Links** → **Create Payment Link**, set the amount, and share the link with your viewers.
 
-**Q：連接狀態沒有變綠？**
-確認 Webhook signing secret 有正確貼入並點擊儲存，且 Stripe 後台的端點 URL 與 app 顯示的完全一致。
+**Q: Why is the connection status not green?**
+Ensure the Webhook Signing Secret is correctly pasted and saved, and that the endpoint URL in the Stripe Dashboard exactly matches the one displayed in the app.

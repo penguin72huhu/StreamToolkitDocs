@@ -2,85 +2,85 @@
 sidebar_position: 1
 ---
 
-# YouTube API 設定
+# YouTube API Settings
 
-本教學說明如何取得 YouTube Data API 的 **API Key** 和**頻道 ID**，用於`實況精華標記`功能。
+This tutorial explains how to obtain the **API Key** and **Channel ID** for the YouTube Data API, used for the `Stream Highlight Marker` feature.
 
 ## YouTube Data API
 
-### 步驟一：開啟 Google Cloud Console
+### Step 1: Open Google Cloud Console
 
-1. 前往 [Google Cloud Console](https://console.cloud.google.com)
-2. 用你的 Google 帳號登入
+1. Go to [Google Cloud Console](https://console.cloud.google.com)
+2. Log in with your Google account
 
-### 步驟二：啟用 YouTube Data API v3
+### Step 2: Enable YouTube Data API v3
 
-1. 在上方搜尋列搜尋 `YouTube Data API v3`
+1. Search for `YouTube Data API v3` in the top search bar
 
    ![Search YouTube Data API v3](./Youtube_API_Key_img/API_step2-1.png)
 
-2. 點擊搜尋結果
-3. 點擊 **Enable**
+2. Click on the search result
+3. Click **Enable**
 
    ![Click Enable](./Youtube_API_Key_img/API_step2-3.png)
 
-### 步驟三：建立 API 金鑰
+### Step 3: Create API Key
 
-1. 點擊左方 **Credentials**
+1. Click **Credentials** on the left
 
    ![Click Credentials](./Youtube_API_Key_img/API_step3-1.png)
 
-2. 點選 **Create credentials** → **API Key**
+2. Click **Create credentials** → **API Key**
 
    ![Create credentials](./Youtube_API_Key_img/API_step3-2.png)
 
-### 步驟四：設定 API 金鑰
+### Step 4: Configure API Key
 
-1. **Name** 隨意填（例如：`StreamToolkit`）
-2. **Select API restrictions** 勾選 `YouTube Data API v3` 後按 **OK**
+1. Enter any **Name** (e.g., `StreamToolkit`)
+2. Under **Select API restrictions**, check `YouTube Data API v3` and click **OK**
 
    ![Select API restrictions](./Youtube_API_Key_img/API_step4-2.png)
 
-3. **Authenticate API calls through a service account** 不勾選
-4. **Application restrictions** 選 **None**
+3. Leave **Authenticate API calls through a service account** unchecked
+4. Select **None** for **Application restrictions**
 
    ![Select None for Application restrictions](./Youtube_API_Key_img/API_step4-4.png)
 
-5. 點擊 **Create**
+5. Click **Create**
 
-### 步驟五：填入 App
+### Step 5: Fill into the App
 
-1. 將得到的 API Key 貼入 App 中 **YouTube API** 欄位
+1. Paste the obtained API Key into the **YouTube API** field in the App
 
 ![Paste into app](./Youtube_API_Key_img/API_step5.png)
 
-## 頻道 ID
+## Channel ID
 
-### 步驟一：開啟 YouTube 設定
+### Step 1: Open YouTube Settings
 
-1. 前往 [YouTube](https://www.youtube.com)
-2. 點選右上角大頭貼
-3. 選擇 **設定**
+1. Go to [YouTube](https://www.youtube.com)
+2. Click your profile picture in the top right corner
+3. Select **Settings**
 
 ![Open YouTube settings](./Youtube_API_Key_img/ID_step1.png)
 
-### 步驟二：取得 頻道 ID
+### Step 2: Get Channel ID
 
-1. 左側欄位選擇 **進階設定**
+1. Select **Advanced settings** from the left menu
 
    ![Advanced settings](./Youtube_API_Key_img/ID_step2-1.png)
 
-2. 將 **頻道 ID** 複製後貼回 App
+2. Copy the **Channel ID** and paste it back into the App
 
    ![Copy Channel ID](./Youtube_API_Key_img/ID_step2-2.png)
 
-## 常見問題
+## FAQ
 
-**Q：API 金鑰有使用量限制嗎？**
-有。YouTube Data API v3 每天免費額度為 10,000 單位。一般直播用量不會超過。
+**Q: Are there usage limits for the API Key?**
+Yes. The YouTube Data API v3 has a free daily quota of 10,000 units. Normal streaming usage will not exceed this limit.
 
-**Q：出現「API Key 無效」錯誤？**
-確認 YouTube Data API v3 已啟用，且使用的是正確專案的金鑰。
+**Q: Getting an "Invalid API Key" error?**
+Make sure that the YouTube Data API v3 is enabled and that you are using the key from the correct project.
 
-**Q：金鑰可以公開嗎？**
-不建議。若金鑰外洩被濫用，你的每日配額會被快速耗盡。
+**Q: Can the key be made public?**
+Not recommended. If your key is leaked and abused, your daily quota will be depleted quickly.

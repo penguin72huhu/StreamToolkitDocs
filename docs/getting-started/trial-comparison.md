@@ -2,22 +2,22 @@
 sidebar_position: 3
 ---
 
-# 試用版 / 正式版比較
+# Trial / Full Version Comparison
 
-Stream Toolkit 提供**免費試用版**與**正式版**。試用版沒有時間限制，可以永久使用大部分互動功能，讓你充分體驗；正式版則解鎖金流串接、Steam 工作坊、進階客製與各項數量限制。
+Stream Toolkit offers a **free trial version** and a **full version**. The trial version has no time limit and allows permanent use of most interactive features for a full experience, while the full version unlocks payment gateways, Steam Workshop, advanced customization, and removes various quantity limits.
 
 <div className="edition-table-wrap">
 
 <table className="edition-table">
   <thead>
     <tr>
-      <th className="feat-col">功能項目</th>
-      <th className="trial-col">試用版<br/><span className="col-sub">Demo</span></th>
-      <th className="pro-col">正式版<br/><span className="col-sub">Pro</span></th>
+      <th className="feat-col">Features</th>
+      <th className="trial-col">Trial Version<br/><span className="col-sub">Demo</span></th>
+      <th className="pro-col">Full Version<br/><span className="col-sub">Pro</span></th>
     </tr>
   </thead>
   <tbody>
-    <tr className="section-row"><td colSpan={3}>實況平台串接</td></tr>
+    <tr className="section-row"><td colSpan={3}>Streaming Platform Integration</td></tr>
     <tr>
       <td>Twitch</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
@@ -29,101 +29,101 @@ Stream Toolkit 提供**免費試用版**與**正式版**。試用版沒有時間
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
 
-    <tr className="section-row"><td colSpan={3}>贊助金流</td></tr>
+    <tr className="section-row"><td colSpan={3}>Donation Payment Gateway</td></tr>
     <tr>
-      <td>真實金流串接（PayPal / Stripe / 歐付寶 / 綠界）</td>
+      <td>Real Payment Gateway Integration (PayPal / Stripe / O'Pay / ECPay)</td>
       <td className="trial-cell"><span className="dash">—</span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
 
-    <tr className="section-row"><td colSpan={3}>客製化與外觀</td></tr>
+    <tr className="section-row"><td colSpan={3}>Customization and Appearance</td></tr>
     <tr>
-      <td>外觀設定（顏色 / 字體 / 大小）</td>
+      <td>Appearance Settings (Color / Font / Size)</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>自訂 CSS</td>
+      <td>Custom CSS</td>
       <td className="trial-cell"><span className="dash">—</span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>Steam 工作坊（訂閱 / 上傳主題）</td>
+      <td>Steam Workshop (Subscribe / Upload Themes)</td>
       <td className="trial-cell"><span className="dash">—</span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>Overlay 浮水印</td>
-      <td className="trial-cell">顯示</td>
-      <td className="pro-cell"><span className="dot ok"></span> 無浮水印</td>
+      <td>Overlay Watermark</td>
+      <td className="trial-cell">Display</td>
+      <td className="pro-cell"><span className="dot ok"></span> No Watermark</td>
     </tr>
 
-    <tr className="section-row"><td colSpan={3}>互動工具</td></tr>
+    <tr className="section-row"><td colSpan={3}>Interactive Tools</td></tr>
     <tr>
-      <td>聊天室自動翻譯</td>
-      <td className="trial-cell">可使用（含浮水印）</td>
-      <td className="pro-cell"><span className="dot ok"></span> 無浮水印</td>
+      <td>Chat Auto-Translation</td>
+      <td className="trial-cell">Available (with Watermark)</td>
+      <td className="pro-cell"><span className="dot ok"></span> No Watermark</td>
     </tr>
     <tr>
-      <td>語音翻譯字幕</td>
-      <td className="trial-cell">僅可翻譯成英文</td>
-      <td className="pro-cell"><span className="dot ok"></span> 20+ 種語言</td>
+      <td>Voice Translation Subtitles</td>
+      <td className="trial-cell">Can only translate to English</td>
+      <td className="pro-cell"><span className="dot ok"></span> 20+ Languages</td>
     </tr>
     <tr>
-      <td>即時投票</td>
+      <td>Live Polls</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>抽獎</td>
+      <td>Giveaways</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>時鐘</td>
+      <td>Clock</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>表情符號牆</td>
+      <td>Emote Wall</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>Twitch 目標條</td>
+      <td>Twitch Goal Bar</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>實況精華標記</td>
+      <td>Stream Highlight Marker</td>
       <td className="trial-cell"><span className="dot ok"></span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>轉盤</td>
-      <td className="trial-cell">僅可建立 1 個</td>
-      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+      <td>Spin Wheel</td>
+      <td className="trial-cell">Can only create 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
     </tr>
     <tr>
-      <td>計時器</td>
-      <td className="trial-cell">僅可建立 1 個</td>
-      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+      <td>Timer</td>
+      <td className="trial-cell">Can only create 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
     </tr>
     <tr>
-      <td>觀眾聊天室點歌</td>
+      <td>Viewer Chat Song Request</td>
       <td className="trial-cell"><span className="dash">—</span></td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
-      <td>實況效果板（圖片 / 影片 / 音效）</td>
-      <td className="trial-cell">僅各可新增 1 個</td>
-      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+      <td>Media Board (Images / Videos / Sounds)</td>
+      <td className="trial-cell">Can only add 1 of each</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
     </tr>
   </tbody>
 </table>
 
 </div>
 
-:::info 關於升級
-試用版與正式版在 Steam 上為兩個獨立的應用程式。購買正式版後需另外安裝，兩者的設定與紀錄不互通。
+:::info About Upgrading
+The trial version and full version are two separate applications on Steam. After purchasing the full version, it must be installed separately, and settings and records are not shared between them.
 :::

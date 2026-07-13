@@ -2,21 +2,21 @@
 sidebar_position: 1
 ---
 
-# 安裝與啟動
+# Installation and Launch
 
-## 系統需求
+## System Requirements
 
-- Windows 10 / 11（64位元）
-- 網路連線
+- Windows 10 / 11 (64-bit)
+- Internet connection
 
-## 下載安裝
+## Download and Installation
 
-1. 前往 [Steam 頁面](https://store.steampowered.com/app/4828880/Stream_Toolkit/) 購買 Stream Toolkit
-2. 在 Steam 中點擊「安裝」，等待下載完成
-3. 從 Steam 啟動 Stream Toolkit
+1. Go to the [Steam Page](https://store.steampowered.com/app/4828880/Stream_Toolkit/) to purchase Stream Toolkit
+2. Click "Install" in Steam and wait for the download to complete
+3. Launch Stream Toolkit from Steam
 
-## 第一次啟動
+## First-Time Launch
 
-啟動後會看到主控制介面，左側選單列出所有功能。
+After launching, you will see the main control interface, with the left menu listing all features.
 
-Stream Toolkit 的每個功能都有對應的本機網址（例如 `http://127.0.0.1:7272/donate`），在 OBS 中新增「瀏覽器來源」並填入該網址，就能讓功能畫面出現在直播畫面上。
+Each feature of Stream Toolkit has a corresponding local URL (e.g., `http://127.0.0.1:7272/donate`). By adding a "Browser Source" in OBS and entering that URL, you can display the feature on your live stream.

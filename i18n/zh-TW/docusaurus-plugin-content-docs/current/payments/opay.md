@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+---
+
+# 歐付寶設定
+
+本教學說明如何取得歐付寶的 **HashKey** 與 **HashIV**，並填入 Stream Toolkit。
+
+## 步驟一：登入歐付寶廠商後台
+
+1. 前往 [歐付寶官網](https://www.opay.tw/) 並登入帳號
+2. 登入後點選右上角進入廠商後台
+
+   ![O'Pay merchant portal button at top right](./opay-img/step1.png)
+
+:::note
+如果還沒有歐付寶帳號，需要先完成商店申請與身分驗證。
+:::
+
+## 步驟二：進入系統開發管理
+
+1. 左側選單找到 **系統開發管理**
+2. 點擊 **系統介接設定**
+
+![System interface setup in system development menu](./opay-img/step2.png)
+
+## 步驟三：填入 Stream Toolkit
+
+1. 開啟 Stream Toolkit
+2. 點選左下選單的 **設定**
+3. **贊助平台串接** 找到 **歐付寶**
+4. 將 **系統介接設定** 中的 **ALL IN ONE 介接 HashKey**、**ALL IN ONE 介接 HashIV**，分別貼入 **Hash Key** 和 **Hash IV** 欄位
+
+   ![O'Pay interface info](./opay-img/step3-4.png)
+
+5. 點擊 **儲存**
+
+   ![O'Pay settings in Stream Toolkit](./opay-img/step3-5.png)
+
+## 步驟四：設定通知網址
+
+1. 複製 **歐付寶** 的 **幕後通知網址**
+
+   ![Copy the notification URL](./opay-img/step4-1.png)
+
+2. 回到 [歐付寶官網](https://www.opay.tw/)，點選 **我要收款** → **實況主收款設定**
+
+   ![Streamer payment settings in payment menu](./opay-img/step4-2.png)
+
+3. 將 **幕後通知網址** 貼到 **贊助付款成功通知網址** 欄位
+
+   ![Donation payment notification URL field](./opay-img/step4-3.png)
+
+4. 點擊 **儲存設定**
+
+## 常見問題
+
+**Q：找不到「系統開發管理」選單？**
+代表帳號還未通過審核，或尚未開通相關收款功能。請聯繫歐付寶客服。
+
+**Q：HashKey 可以公開嗎？**
+不行。HashKey 和 HashIV 屬於私密金鑰，請勿截圖分享或貼到公開場合。

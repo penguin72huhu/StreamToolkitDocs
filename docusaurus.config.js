@@ -20,9 +20,9 @@ const config = {
   onBrokenLinks: 'throw',
 
   i18n: {
-    defaultLocale: 'zh-TW',
+    defaultLocale: 'en',
     locales: [
-      'zh-TW', 'zh-CN', 'en', 'es', 'es-ES', 'pt-BR', 'pt-PT', 'ja', 'ru', 'de',
+      'en', 'zh-TW', 'zh-CN', 'es', 'es-ES', 'pt-BR', 'pt-PT', 'ja', 'ru', 'de',
       'fr', 'ko', 'pl', 'it', 'nl', 'tr', 'th', 'id', 'vi', 'sv', 'cs',
     ],
     localeConfigs: {
@@ -50,6 +50,23 @@ const config = {
     },
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          // serve English (default locale, no prefix) under /en/ as well
+          const locales = ['zh-TW', 'zh-CN', 'es', 'es-ES', 'pt-BR', 'pt-PT', 'ja', 'ru', 'de',
+            'fr', 'ko', 'pl', 'it', 'nl', 'tr', 'th', 'id', 'vi', 'sv', 'cs'];
+          if (locales.some(l => existingPath === `/${l}` || existingPath.startsWith(`/${l}/`))) {
+            return undefined;
+          }
+          return [`/en${existingPath}`];
+        },
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -70,7 +87,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
