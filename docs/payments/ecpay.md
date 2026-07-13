@@ -16,11 +16,11 @@ sidebar_position: 2
 1. 點選左側選單的 **系統設定**
 2. 選擇 **系統介接設定**
 
-   ![系統設定選單中的系統介接設定](./ecpay-img/step2-2.png)
+   ![System interface setup in system settings menu](./ecpay-img/step2-2.png)
 
 3. 找到 **介接Hash Key** 和 **介接Hash IV**
 
-   ![介接 HashKey 與介接 HashIV](./ecpay-img/step2-3.png)
+   ![HashKey and HashIV](./ecpay-img/step2-3.png)
 
 ## 步驟三：填入 Stream Toolkit
 
@@ -30,21 +30,21 @@ sidebar_position: 2
 4. 將 **系統介接設定** 中的 **介接 HashKey**、**介接 HashIV**，分別貼入 **Hash Key** 和 **Hash IV** 欄位
 5. 點擊 **儲存**
 
-![Stream Toolkit 綠界設定欄位](./ecpay-img/step3.png)
+![ECPay settings in Stream Toolkit](./ecpay-img/step3.png)
 
 ## 步驟四：設定通知網址
 
 1. 複製 **綠界** 的 **幕後通知網址**
 
-   ![複製幕後通知網址](./ecpay-img/step4-1.png)
+   ![Copy the notification URL](./ecpay-img/step4-1.png)
 
 2. 綠界廠商專區裡找到 **收款工具** → **實況主收款**
 
-   ![收款工具選單中的實況主收款](./ecpay-img/step4-2.png)
+   ![Streamer payment in payment tools menu](./ecpay-img/step4-2.png)
 
 3. 將 **幕後通知網址** 貼到 **付款完成通知回傳網址** 欄位
 
-   ![付款完成通知回傳網址欄位](./ecpay-img/step4-3.png)
+   ![Payment completion notification URL field](./ecpay-img/step4-3.png)
 
 4. 點擊 **儲存設定**
 

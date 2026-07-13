@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.快速開始": {
+    "message": "Quick Start",
+    "description": "The label for category '快速開始' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.平台設定": {
+    "message": "Platform Settings",
+    "description": "The label for category '平台設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.金流設定": {
+    "message": "Payment Settings",
+    "description": "The label for category '金流設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.第三方服務": {
+    "message": "Third-Party Services",
+    "description": "The label for category '第三方服務' in sidebar 'tutorialSidebar'"
+  }
+}

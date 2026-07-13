@@ -16,13 +16,13 @@ DeepL API Key 用於以下功能的自動翻譯：
 
 點擊右上角的 **頭貼圖示**，選擇 **Account**。
 
-![進入 Account 設定](./deepl-api-img/step2.png)
+![Open Account settings](./deepl-api-img/step2.png)
 
 ## 步驟三：切換到 API Keys & limits 分頁
 
 點選 **API Keys & limits** 分頁。
 
-![API Keys & limits 分頁](./deepl-api-img/step3.png)
+![API Keys & limits tab](./deepl-api-img/step3.png)
 
 ## 步驟四：建立新的 API Key
 
@@ -31,16 +31,16 @@ DeepL API Key 用於以下功能的自動翻譯：
 3. **Permissions**：選擇 **All access**
 4. 點擊 **Create Key**
 
-![建立 API Key](./deepl-api-img/step4.png)
+![Create API Key](./deepl-api-img/step4.png)
 
-![建立完成](./deepl-api-img/step4-1.png)
+![API Key created](./deepl-api-img/step4-1.png)
 
 ## 步驟五：複製並填入 App
 
 1. 複製產生的 API Key
 2. 回到 Stream Toolkit，貼入對應的 **DeepL API Key** 欄位
 
-![填入 API Key](./deepl-api-img/step5.png)
+![Paste API Key](./deepl-api-img/step5.png)
 
 ## 常見問題
 

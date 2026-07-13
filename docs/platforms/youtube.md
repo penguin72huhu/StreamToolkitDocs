@@ -17,18 +17,18 @@ sidebar_position: 1
 
 1. 在上方搜尋列搜尋 `YouTube Data API v3`
 
-   ![搜尋 YouTube Data API v3](./Youtube_API_Key_img/API_step2-1.png)
+   ![Search YouTube Data API v3](./Youtube_API_Key_img/API_step2-1.png)
 
 2. 點擊搜尋結果
 3. 點擊 **Enable**
 
-   ![點擊 Enable](./Youtube_API_Key_img/API_step2-3.png)
+   ![Click Enable](./Youtube_API_Key_img/API_step2-3.png)
 
 ### 步驟三：建立 API 金鑰
 
 1. 點擊左方 **Credentials**
 
-   ![點擊 Credentials](./Youtube_API_Key_img/API_step3-1.png)
+   ![Click Credentials](./Youtube_API_Key_img/API_step3-1.png)
 
 2. 點選 **Create credentials** → **API Key**
 
@@ -44,7 +44,7 @@ sidebar_position: 1
 3. **Authenticate API calls through a service account** 不勾選
 4. **Application restrictions** 選 **None**
 
-   ![Application restrictions 選 None](./Youtube_API_Key_img/API_step4-4.png)
+   ![Select None for Application restrictions](./Youtube_API_Key_img/API_step4-4.png)
 
 5. 點擊 **Create**
 
@@ -52,7 +52,7 @@ sidebar_position: 1
 
 1. 將得到的 API Key 貼入 App 中 **YouTube API** 欄位
 
-![填入 App](./Youtube_API_Key_img/API_step5.png)
+![Paste into app](./Youtube_API_Key_img/API_step5.png)
 
 ## 頻道 ID
 
@@ -62,17 +62,17 @@ sidebar_position: 1
 2. 點選右上角大頭貼
 3. 選擇 **設定**
 
-![開啟 YouTube 設定](./Youtube_API_Key_img/ID_step1.png)
+![Open YouTube settings](./Youtube_API_Key_img/ID_step1.png)
 
-### 步驟二：取得 Channel ID
+### 步驟二：取得 頻道 ID
 
 1. 左側欄位選擇 **進階設定**
 
-   ![進階設定](./Youtube_API_Key_img/ID_step2-1.png)
+   ![Advanced settings](./Youtube_API_Key_img/ID_step2-1.png)
 
-2. 將 **Channel ID** 複製後貼回 App
+2. 將 **頻道 ID** 複製後貼回 App
 
-   ![複製 Channel ID](./Youtube_API_Key_img/ID_step2-2.png)
+   ![Copy Channel ID](./Youtube_API_Key_img/ID_step2-2.png)
 
 ## 常見問題
 

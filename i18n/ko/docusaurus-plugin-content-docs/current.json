@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.快速開始": {
+    "message": "빠른 시작",
+    "description": "The label for category '快速開始' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.平台設定": {
+    "message": "플랫폼 설정",
+    "description": "The label for category '平台設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.金流設定": {
+    "message": "결제 설정",
+    "description": "The label for category '金流設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.第三方服務": {
+    "message": "타사 서비스",
+    "description": "The label for category '第三方服務' in sidebar 'tutorialSidebar'"
+  }
+}

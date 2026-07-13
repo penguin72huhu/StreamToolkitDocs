@@ -11,7 +11,7 @@ sidebar_position: 1
 1. 前往 [歐付寶官網](https://www.opay.tw/) 並登入帳號
 2. 登入後點選右上角進入廠商後台
 
-   ![歐付寶右上角廠商後台按鈕](./opay-img/step1.png)
+   ![O'Pay merchant portal button at top right](./opay-img/step1.png)
 
 :::note
 如果還沒有歐付寶帳號，需要先完成商店申請與身分驗證。
@@ -22,7 +22,7 @@ sidebar_position: 1
 1. 左側選單找到 **系統開發管理**
 2. 點擊 **系統介接設定**
 
-![系統開發管理選單中的系統介接設定](./opay-img/step2.png)
+![System interface setup in system development menu](./opay-img/step2.png)
 
 ## 步驟三：填入 Stream Toolkit
 
@@ -31,25 +31,25 @@ sidebar_position: 1
 3. **贊助平台串接** 找到 **歐付寶**
 4. 將 **系統介接設定** 中的 **ALL IN ONE 介接 HashKey**、**ALL IN ONE 介接 HashIV**，分別貼入 **Hash Key** 和 **Hash IV** 欄位
 
-   ![歐付寶介接資訊](./opay-img/step3-4.png)
+   ![O'Pay interface info](./opay-img/step3-4.png)
 
 5. 點擊 **儲存**
 
-   ![Stream Toolkit 歐付寶設定欄位](./opay-img/step3-5.png)
+   ![O'Pay settings in Stream Toolkit](./opay-img/step3-5.png)
 
 ## 步驟四：設定通知網址
 
 1. 複製 **歐付寶** 的 **幕後通知網址**
 
-   ![複製幕後通知網址](./opay-img/step4-1.png)
+   ![Copy the notification URL](./opay-img/step4-1.png)
 
 2. 回到 [歐付寶官網](https://www.opay.tw/)，點選 **我要收款** → **實況主收款設定**
 
-   ![我要收款選單中的實況主收款設定](./opay-img/step4-2.png)
+   ![Streamer payment settings in payment menu](./opay-img/step4-2.png)
 
 3. 將 **幕後通知網址** 貼到 **贊助付款成功通知網址** 欄位
 
-   ![贊助付款成功通知網址欄位](./opay-img/step4-3.png)
+   ![Donation payment notification URL field](./opay-img/step4-3.png)
 
 4. 點擊 **儲存設定**
 

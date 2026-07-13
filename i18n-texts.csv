@@ -1,0 +1,324 @@
+﻿page,line,text
+docs/intro.md,6,# Stream Toolkit 介紹
+docs/intro.md,8,左側選單依功能分類。新手建議從 [快速開始](./getting-started/installation) 開始閱讀。
+docs/intro.md,12,Stream Toolkit 是專為實況主打造的萬用直播工具箱，告別手忙腳亂的多網頁切換。
+docs/intro.md,14,- **即時翻譯**：內建聊天室與語音雙向翻譯，輕鬆與全球觀眾互動。
+docs/intro.md,15,- **全能整合**：集投票、抽獎、目標條、贊助通知與實況效果板於一體。
+docs/intro.md,16,- **外觀自訂**：支援 CSS 客製化與 Steam 工作坊，自由變換風格。
+docs/intro.md,17,- **快速上手**：一鍵產生 Overlay 網址，貼進 OBS 即可直接使用。
+docs/intro.md,21,## 🌍 即時聊天室翻譯
+docs/intro.md,23,整合 Twitch 與 YouTube 聊天室訊息。
+docs/intro.md,25,自動翻譯外語訊息，讓你更輕鬆地與世界各地的觀眾交流。
+docs/intro.md,27,支援頭像、徽章、平台圖示顯示，以及完整 CSS 客製化與 Steam Workshop 主題分享。
+docs/intro.md,29,## 🎙️ 語音翻譯字幕
+docs/intro.md,31,按住快捷鍵開始錄音。
+docs/intro.md,33,自動將發言翻譯成指定語言並顯示於直播畫面，讓不同語言的觀眾也能輕鬆理解你的內容。
+docs/intro.md,35,## 🎨 Steam Workshop 主題
+docs/intro.md,37,下載社群製作的主題，或打造屬於自己的 Overlay 風格。
+docs/intro.md,39,從聊天室到目標條、贊助通知與計時器，都能自由調整外觀與動畫效果，讓你的直播畫面不再和別人一模一樣。
+docs/intro.md,41,支援 Steam Workshop 分享與下載。
+docs/intro.md,43,## 🎮 常用直播工具一次整合
+docs/intro.md,45,內建多種直播常用功能：
+docs/intro.md,47,- 轉盤
+docs/intro.md,48,- 即時投票 / 抽獎
+docs/intro.md,49,- Twitch 目標條
+docs/intro.md,50,- 贊助條 / 贊助通知 / 贊助紀錄板
+docs/intro.md,51,- 計時器
+docs/intro.md,52,- 時鐘
+docs/intro.md,53,- 點歌
+docs/intro.md,54,- 實況效果板（圖片 / 影片 / 音效）
+docs/intro.md,55,- 表情符號牆
+docs/intro.md,56,- 精華標記
+docs/intro.md,58,不再需要安裝多個插件或開啟多個網頁工具。
+docs/intro.md,60,## ⚡ 專為 OBS 設計
+docs/intro.md,62,每個功能都提供獨立的 OBS 網址，設定完成後複製貼上即可使用。
+docs/intro.md,64,聊天室、目標條、計時器、贊助通知等元件皆可獨立運作，想用什麼開什麼，用不到的功能不會影響效能。
+docs/intro.md,66,減少在多個網站、插件與工具之間來回切換，把時間留給直播本身。
+docs/intro.md,68,## 🔗 目前支援的平台與服務（持續新增）
+docs/intro.md,70,**直播平台**
+docs/intro.md,71,- Twitch
+docs/intro.md,72,- YouTube Live
+docs/intro.md,74,**翻譯服務**
+docs/intro.md,75,- DeepL
+docs/intro.md,76,- MyMemory
+docs/intro.md,78,**語音辨識**
+docs/intro.md,79,- Whisper（本機離線模型）
+docs/intro.md,81,**金流與贊助**
+docs/intro.md,82,- Twitch Bits
+docs/intro.md,83,- YouTube 超級留言、超級貼圖
+docs/intro.md,84,- PayPal
+docs/intro.md,85,- Stripe
+docs/intro.md,86,- 歐付寶
+docs/intro.md,87,- 綠界
+docs/getting-started/installation.md,5,# 安裝與啟動
+docs/getting-started/installation.md,7,## 系統需求
+docs/getting-started/installation.md,9,- Windows 10 / 11（64位元）
+docs/getting-started/installation.md,10,- 網路連線
+docs/getting-started/installation.md,12,## 下載安裝
+docs/getting-started/installation.md,14,1. 前往 [Steam 頁面](https://store.steampowered.com/app/4828880/Stream_Toolkit/) 購買 Stream Toolkit
+docs/getting-started/installation.md,15,2. 在 Steam 中點擊「安裝」，等待下載完成
+docs/getting-started/installation.md,16,3. 從 Steam 啟動 Stream Toolkit
+docs/getting-started/installation.md,18,## 第一次啟動
+docs/getting-started/installation.md,20,啟動後會看到主控制介面，左側選單列出所有功能。
+docs/getting-started/installation.md,22,Stream Toolkit 的每個功能都有對應的本機網址（例如 `http://127.0.0.1:7272/donate`），在 OBS 中新增「瀏覽器來源」並填入該網址，就能讓功能畫面出現在直播畫面上。
+docs/getting-started/obs-source.md,5,# 如何在 OBS 加入來源
+docs/getting-started/obs-source.md,7,Stream Toolkit 的大部分功能都需要在 OBS 中加入「瀏覽器來源」才能顯示在直播畫面上。
+docs/getting-started/obs-source.md,9,## 步驟一：複製功能網址
+docs/getting-started/obs-source.md,11,在 Stream Toolkit 中，每個功能頁面都會顯示對應的本機網址，格式為：
+docs/getting-started/obs-source.md,17,複製你想加入的功能網址。
+docs/getting-started/obs-source.md,19,## 步驟二：在 OBS 新增瀏覽器來源
+docs/getting-started/obs-source.md,21,1. 在 OBS 的 **來源** 區塊，點擊下方的 **+** 按鈕
+docs/getting-started/obs-source.md,22,2. 選擇 **瀏覽器**
+docs/getting-started/obs-source.md,23,3. 選擇 **建立新的**，輸入來源名稱（例如「贊助條」），點擊 **確定**
+docs/getting-started/obs-source.md,24,4. 在 **URL** 欄位貼上步驟一複製的網址
+docs/getting-started/obs-source.md,25,5. 依需求調整 **寬度** 與 **高度**
+docs/getting-started/obs-source.md,26,6. 點擊 **確定**
+docs/getting-started/obs-source.md,30,## 需要勾選「使用 OBS 控制音訊」的功能
+docs/getting-started/obs-source.md,32,以下功能包含音訊輸出，必須在瀏覽器來源的設定中勾選 **使用 OBS 控制音訊**，聲音才能正確出現在直播中：
+docs/getting-started/obs-source.md,34,- **實況效果板** — 影片、音效
+docs/getting-started/obs-source.md,35,- **贊助通知**
+docs/getting-started/obs-source.md,36,- **點歌**
+docs/getting-started/obs-source.md,38,勾選方式：
+docs/getting-started/obs-source.md,39,1. 在 OBS 來源列表中，對該瀏覽器來源點擊右鍵
+docs/getting-started/obs-source.md,40,2. 選擇 **屬性**
+docs/getting-started/obs-source.md,41,3. 找到 **使用 OBS 控制音訊** 並勾選
+docs/getting-started/obs-source.md,42,4. 點擊 **確定**
+docs/getting-started/obs-source.md,46,:::tip
+docs/getting-started/obs-source.md,47,若勾選後仍沒有聲音，確認 OBS 的混音器中該來源沒有被靜音。
+docs/getting-started/trial-comparison.md,5,# 試用版 / 正式版比較
+docs/getting-started/trial-comparison.md,7,Stream Toolkit 提供**免費試用版**與**正式版**。試用版沒有時間限制，可以永久使用大部分互動功能，讓你充分體驗；正式版則解鎖金流串接、Steam 工作坊、進階客製與各項數量限制。
+docs/getting-started/trial-comparison.md,14,"      <th className=""feat-col"">功能項目</th>"
+docs/getting-started/trial-comparison.md,15,"      <th className=""trial-col"">試用版<br/><span className=""col-sub"">Demo</span></th>"
+docs/getting-started/trial-comparison.md,16,"      <th className=""pro-col"">正式版<br/><span className=""col-sub"">Pro</span></th>"
+docs/getting-started/trial-comparison.md,20,"    <tr className=""section-row""><td colSpan={3}>實況平台串接</td></tr>"
+docs/getting-started/trial-comparison.md,22,      <td>Twitch</td>
+docs/getting-started/trial-comparison.md,27,      <td>YouTube Live</td>
+docs/getting-started/trial-comparison.md,32,"    <tr className=""section-row""><td colSpan={3}>贊助金流</td></tr>"
+docs/getting-started/trial-comparison.md,34,      <td>真實金流串接（PayPal / Stripe / 歐付寶 / 綠界）</td>
+docs/getting-started/trial-comparison.md,39,"    <tr className=""section-row""><td colSpan={3}>客製化與外觀</td></tr>"
+docs/getting-started/trial-comparison.md,41,      <td>外觀設定（顏色 / 字體 / 大小）</td>
+docs/getting-started/trial-comparison.md,46,      <td>自訂 CSS</td>
+docs/getting-started/trial-comparison.md,51,      <td>Steam 工作坊（訂閱 / 上傳主題）</td>
+docs/getting-started/trial-comparison.md,56,      <td>Overlay 浮水印</td>
+docs/getting-started/trial-comparison.md,57,"      <td className=""trial-cell"">顯示</td>"
+docs/getting-started/trial-comparison.md,58,"      <td className=""pro-cell""><span className=""dot ok""></span> 無浮水印</td>"
+docs/getting-started/trial-comparison.md,61,"    <tr className=""section-row""><td colSpan={3}>互動工具</td></tr>"
+docs/getting-started/trial-comparison.md,63,      <td>聊天室自動翻譯</td>
+docs/getting-started/trial-comparison.md,64,"      <td className=""trial-cell"">可使用（含浮水印）</td>"
+docs/getting-started/trial-comparison.md,65,"      <td className=""pro-cell""><span className=""dot ok""></span> 無浮水印</td>"
+docs/getting-started/trial-comparison.md,68,      <td>語音翻譯字幕</td>
+docs/getting-started/trial-comparison.md,69,"      <td className=""trial-cell"">僅可翻譯成英文</td>"
+docs/getting-started/trial-comparison.md,70,"      <td className=""pro-cell""><span className=""dot ok""></span> 20+ 種語言</td>"
+docs/getting-started/trial-comparison.md,73,      <td>即時投票</td>
+docs/getting-started/trial-comparison.md,78,      <td>抽獎</td>
+docs/getting-started/trial-comparison.md,83,      <td>時鐘</td>
+docs/getting-started/trial-comparison.md,88,      <td>表情符號牆</td>
+docs/getting-started/trial-comparison.md,93,      <td>Twitch 目標條</td>
+docs/getting-started/trial-comparison.md,98,      <td>實況精華標記</td>
+docs/getting-started/trial-comparison.md,103,      <td>轉盤</td>
+docs/getting-started/trial-comparison.md,104,"      <td className=""trial-cell"">僅可建立 1 個</td>"
+docs/getting-started/trial-comparison.md,105,"      <td className=""pro-cell""><span className=""dot ok""></span> 無數量限制</td>"
+docs/getting-started/trial-comparison.md,108,      <td>計時器</td>
+docs/getting-started/trial-comparison.md,109,"      <td className=""trial-cell"">僅可建立 1 個</td>"
+docs/getting-started/trial-comparison.md,110,"      <td className=""pro-cell""><span className=""dot ok""></span> 無數量限制</td>"
+docs/getting-started/trial-comparison.md,113,      <td>觀眾聊天室點歌</td>
+docs/getting-started/trial-comparison.md,118,      <td>實況效果板（圖片 / 影片 / 音效）</td>
+docs/getting-started/trial-comparison.md,119,"      <td className=""trial-cell"">僅各可新增 1 個</td>"
+docs/getting-started/trial-comparison.md,120,"      <td className=""pro-cell""><span className=""dot ok""></span> 無數量限制</td>"
+docs/getting-started/trial-comparison.md,127,:::info 關於升級
+docs/getting-started/trial-comparison.md,128,試用版與正式版在 Steam 上為兩個獨立的應用程式。購買正式版後需另外安裝，兩者的設定與紀錄不互通。
+docs/platforms/youtube.md,5,# YouTube API 設定
+docs/platforms/youtube.md,7,本教學說明如何取得 YouTube Data API 的 **API Key** 和**頻道 ID**，用於`實況精華標記`功能。
+docs/platforms/youtube.md,9,## YouTube Data API
+docs/platforms/youtube.md,11,### 步驟一：開啟 Google Cloud Console
+docs/platforms/youtube.md,13,1. 前往 [Google Cloud Console](https://console.cloud.google.com)
+docs/platforms/youtube.md,14,2. 用你的 Google 帳號登入
+docs/platforms/youtube.md,16,### 步驟二：啟用 YouTube Data API v3
+docs/platforms/youtube.md,18,1. 在上方搜尋列搜尋 `YouTube Data API v3`
+docs/platforms/youtube.md,22,2. 點擊搜尋結果
+docs/platforms/youtube.md,23,3. 點擊 **Enable**
+docs/platforms/youtube.md,27,### 步驟三：建立 API 金鑰
+docs/platforms/youtube.md,29,1. 點擊左方 **Credentials**
+docs/platforms/youtube.md,33,2. 點選 **Create credentials** → **API Key**
+docs/platforms/youtube.md,37,### 步驟四：設定 API 金鑰
+docs/platforms/youtube.md,39,1. **Name** 隨意填（例如：`StreamToolkit`）
+docs/platforms/youtube.md,40,2. **Select API restrictions** 勾選 `YouTube Data API v3` 後按 **OK**
+docs/platforms/youtube.md,44,3. **Authenticate API calls through a service account** 不勾選
+docs/platforms/youtube.md,45,4. **Application restrictions** 選 **None**
+docs/platforms/youtube.md,49,5. 點擊 **Create**
+docs/platforms/youtube.md,51,### 步驟五：填入 App
+docs/platforms/youtube.md,53,1. 將得到的 API Key 貼入 App 中 **YouTube API** 欄位
+docs/platforms/youtube.md,57,## 頻道 ID
+docs/platforms/youtube.md,59,### 步驟一：開啟 YouTube 設定
+docs/platforms/youtube.md,61,1. 前往 [YouTube](https://www.youtube.com)
+docs/platforms/youtube.md,62,2. 點選右上角大頭貼
+docs/platforms/youtube.md,63,3. 選擇 **設定**
+docs/platforms/youtube.md,67,### 步驟二：取得 Channel ID
+docs/platforms/youtube.md,69,1. 左側欄位選擇 **進階設定**
+docs/platforms/youtube.md,73,2. 將 **Channel ID** 複製後貼回 App
+docs/platforms/youtube.md,77,## 常見問題
+docs/platforms/youtube.md,79,**Q：API 金鑰有使用量限制嗎？**
+docs/platforms/youtube.md,80,"有。YouTube Data API v3 每天免費額度為 10,000 單位。一般直播用量不會超過。"
+docs/platforms/youtube.md,82,**Q：出現「API Key 無效」錯誤？**
+docs/platforms/youtube.md,83,確認 YouTube Data API v3 已啟用，且使用的是正確專案的金鑰。
+docs/platforms/youtube.md,85,**Q：金鑰可以公開嗎？**
+docs/platforms/youtube.md,86,不建議。若金鑰外洩被濫用，你的每日配額會被快速耗盡。
+docs/platforms/twitch.md,5,# Twitch 設定
+docs/platforms/twitch.md,7,Stream Toolkit 使用 OAuth 授權連結你的 Twitch 帳號，不需要手動填入金鑰。
+docs/platforms/twitch.md,9,## 步驟一：連結 Twitch 帳號
+docs/platforms/twitch.md,11,1. 開啟 Stream Toolkit
+docs/platforms/twitch.md,12,2. 點選左下選單的 **設定**
+docs/platforms/twitch.md,13,3. 平台連接中找到 **Twitch**，並點選 **連結帳號**
+docs/platforms/twitch.md,14,4. 瀏覽器會自動開啟 Twitch 授權頁面
+docs/platforms/twitch.md,15,5. 登入並點擊 **授權**
+docs/platforms/twitch.md,17,授權完成後，Stream Toolkit 會自動取得所需的存取金鑰。
+docs/platforms/twitch.md,21,## 常見問題
+docs/platforms/twitch.md,23,**Q：授權後沒有反應？**
+docs/platforms/twitch.md,24,確認瀏覽器沒有封鎖彈出視窗。Stream Toolkit 會開啟一個新視窗完成授權。
+docs/platforms/twitch.md,26,**Q：需要 Twitch 合作夥伴或聯盟主才能用嗎？**
+docs/platforms/twitch.md,27,不需要。一般帳號也可以使用聊天室功能。訂閱/Bits 目標需要開通訂閱功能。
+docs/payments/paypal.md,5,# PayPal 設定
+docs/payments/paypal.md,7,Stream Toolkit 使用 Webhook 接收 PayPal 付款通知，不需要填入 API 金鑰。
+docs/payments/paypal.md,9,## 步驟一：在 Stream Toolkit 取得 Webhook 網址
+docs/payments/paypal.md,11,1. 開啟 Stream Toolkit
+docs/payments/paypal.md,12,2. 點選左下選單的 **設定**
+docs/payments/paypal.md,13,3. 找到 **贊助平台串接** → **PayPal**
+docs/payments/paypal.md,14,4. 點擊 **取得網址** 按鈕
+docs/payments/paypal.md,15,5. 網址產生後，點擊 **複製** 按鈕
+docs/payments/paypal.md,19,:::warning 注意
+docs/payments/paypal.md,20,Webhook 網址含有專屬 token，請勿公開分享。若懷疑外洩，可點擊**重新產生**換發新網址（舊網址會立即失效）。
+docs/payments/paypal.md,23,## 步驟二：登入 PayPal 開發者後台
+docs/payments/paypal.md,25,1. 前往 [PayPal Developer](https://developer.paypal.com)
+docs/payments/paypal.md,26,2. 點擊右上角 **Log in to Dashboard**，用 PayPal 帳號登入
+docs/payments/paypal.md,27,3. 登入後點擊右上角的 **`</>`** 按鈕進入開發者後台
+docs/payments/paypal.md,31,## 步驟三：切換到 Live 模式
+docs/payments/paypal.md,33,確認左側選單上方的模式開關是 **Live**。如果顯示為 **Sandbox**（測試模式），才需要切換：
+docs/payments/paypal.md,35,1. 找到左側選單上方的切換開關
+docs/payments/paypal.md,36,2. 點擊切換為 **Live**
+docs/payments/paypal.md,40,## 步驟四：前往 Webhooks 設定
+docs/payments/paypal.md,42,1. 左側選單點擊 **Apps & Credentials**
+docs/payments/paypal.md,46,2. 頁面中找到 **Manage Webhooks** 按鈕，點擊進入
+docs/payments/paypal.md,50,3. 滑到頁面最下方，點擊 **Add Webhook**
+docs/payments/paypal.md,54,## 步驟五：新增 Webhook
+docs/payments/paypal.md,56,1. 在 **Webhook URL** 欄位貼上剛才從 Stream Toolkit 複製的網址
+docs/payments/paypal.md,57,2. 在 **Event types** 找到 **Payments & payouts** 分類，勾選：
+docs/payments/paypal.md,58,   - ✅ `Payment capture completed`
+docs/payments/paypal.md,59,   - ✅ `Payment sale completed`
+docs/payments/paypal.md,60,3. 點擊 **Save**
+docs/payments/paypal.md,64,設定完成後，觀眾透過 PayPal 付款，Stream Toolkit 就會即時收到通知。
+docs/payments/paypal.md,66,## 常見問題
+docs/payments/paypal.md,68,**Q：Sandbox 模式可以測試嗎？**
+docs/payments/paypal.md,69,可以。在 Sandbox 模式下同樣可以新增 Webhook，用於測試付款流程，但不會收到真實款項。
+docs/payments/paypal.md,71,**Q：Webhook 網址重新產生後怎麼辦？**
+docs/payments/paypal.md,72,需要回到 PayPal 後台，把舊的 Webhook 網址改成新的。
+docs/payments/stripe.md,5,# Stripe 設定
+docs/payments/stripe.md,7,Stream Toolkit 透過 Webhook 接收 Stripe 付款通知。設定分為兩個部分：從 app 取得 Webhook 網址，以及在 Stripe 後台完成串接。
+docs/payments/stripe.md,9,## 步驟一：在 Stream Toolkit 取得 Webhook 網址
+docs/payments/stripe.md,11,1. 開啟 Stream Toolkit
+docs/payments/stripe.md,12,2. 點選左側選單的 **全域設定** → **贊助平台串接** → **Stripe**（點擊展開）
+docs/payments/stripe.md,13,3. 看到 **Webhook URL**，格式如下：
+docs/payments/stripe.md,15,   https://<worker>/stripe/webhook/<你的userId>
+docs/payments/stripe.md,17,4. 點擊 **複製** 按鈕，儲存這個網址備用
+docs/payments/stripe.md,21,## 步驟二：在 Stripe 後台新增 Webhook
+docs/payments/stripe.md,23,1. 前往 [Stripe Dashboard](https://dashboard.stripe.com)，登入帳號
+docs/payments/stripe.md,24,2. 點擊左下角 **開發人員** → **Webhook**
+docs/payments/stripe.md,28,3. 點擊 **添加接收端**
+docs/payments/stripe.md,32,4. 填寫以下資訊：
+docs/payments/stripe.md,33,   - **事件**：搜尋並勾選 `checkout.session.completed`（只需這一個）
+docs/payments/stripe.md,37,   - **接收端類型**：選擇 **Webhook 端點**
+docs/payments/stripe.md,41,   - **接收端名稱**：隨意填寫（例如 `Stream Toolkit`）
+docs/payments/stripe.md,42,   - **端點 URL**：貼上步驟一複製的 Webhook 網址
+docs/payments/stripe.md,46,5. 點擊 **創建目的地**
+docs/payments/stripe.md,48,## 步驟三：填入簽名密鑰
+docs/payments/stripe.md,50,1. Webhook 建立完成後，頁面會顯示 **簽名密鑰**，格式為 `whsec_...`
+docs/payments/stripe.md,51,2. 複製這串密鑰
+docs/payments/stripe.md,52,3. 回到 Stream Toolkit 的 Stripe 設定區
+docs/payments/stripe.md,53,4. 將密鑰貼入 **Webhook signing secret** 欄位
+docs/payments/stripe.md,54,5. 點擊 **儲存**
+docs/payments/stripe.md,56,連接狀態變為綠色即代表設定成功。
+docs/payments/stripe.md,60,## 完成
+docs/payments/stripe.md,62,設定完成後，觀眾透過你的 Stripe **Payment Link** 付款，Stream Toolkit 就會即時收到通知並顯示贊助。
+docs/payments/stripe.md,64,## 常見問題
+docs/payments/stripe.md,66,**Q：在哪裡建立 Payment Link？**
+docs/payments/stripe.md,67,前往 Stripe Dashboard → **Payment Links** → **建立 Payment Link**，設定好金額後分享連結給觀眾即可。
+docs/payments/stripe.md,69,**Q：連接狀態沒有變綠？**
+docs/payments/stripe.md,70,確認 Webhook signing secret 有正確貼入並點擊儲存，且 Stripe 後台的端點 URL 與 app 顯示的完全一致。
+docs/payments/opay.md,5,# 歐付寶設定
+docs/payments/opay.md,7,本教學說明如何取得歐付寶的 **HashKey** 與 **HashIV**，並填入 Stream Toolkit。
+docs/payments/opay.md,9,## 步驟一：登入歐付寶廠商後台
+docs/payments/opay.md,11,1. 前往 [歐付寶官網](https://www.opay.tw/) 並登入帳號
+docs/payments/opay.md,12,2. 登入後點選右上角進入廠商後台
+docs/payments/opay.md,16,:::note
+docs/payments/opay.md,17,如果還沒有歐付寶帳號，需要先完成商店申請與身分驗證。
+docs/payments/opay.md,20,## 步驟二：進入系統開發管理
+docs/payments/opay.md,22,1. 左側選單找到 **系統開發管理**
+docs/payments/opay.md,23,2. 點擊 **系統介接設定**
+docs/payments/opay.md,27,## 步驟三：填入 Stream Toolkit
+docs/payments/opay.md,29,1. 開啟 Stream Toolkit
+docs/payments/opay.md,30,2. 點選左下選單的 **設定**
+docs/payments/opay.md,31,3. **贊助平台串接** 找到 **歐付寶**
+docs/payments/opay.md,32,4. 將 **系統介接設定** 中的 **ALL IN ONE 介接 HashKey**、**ALL IN ONE 介接 HashIV**，分別貼入 **Hash Key** 和 **Hash IV** 欄位
+docs/payments/opay.md,36,5. 點擊 **儲存**
+docs/payments/opay.md,40,## 步驟四：設定通知網址
+docs/payments/opay.md,42,1. 複製 **歐付寶** 的 **幕後通知網址**
+docs/payments/opay.md,46,2. 回到 [歐付寶官網](https://www.opay.tw/)，點選 **我要收款** → **實況主收款設定**
+docs/payments/opay.md,50,3. 將 **幕後通知網址** 貼到 **贊助付款成功通知網址** 欄位
+docs/payments/opay.md,54,4. 點擊 **儲存設定**
+docs/payments/opay.md,56,## 常見問題
+docs/payments/opay.md,58,**Q：找不到「系統開發管理」選單？**
+docs/payments/opay.md,59,代表帳號還未通過審核，或尚未開通相關收款功能。請聯繫歐付寶客服。
+docs/payments/opay.md,61,**Q：HashKey 可以公開嗎？**
+docs/payments/opay.md,62,不行。HashKey 和 HashIV 屬於私密金鑰，請勿截圖分享或貼到公開場合。
+docs/payments/ecpay.md,5,# 綠界設定
+docs/payments/ecpay.md,7,本教學說明如何取得綠界的 **HashKey** 與 **HashIV**，並填入 Stream Toolkit。
+docs/payments/ecpay.md,9,## 步驟一：登入綠界廠商後台
+docs/payments/ecpay.md,11,1. 前往 [綠界官網](https://www.ecpay.com.tw/)
+docs/payments/ecpay.md,12,2. 點擊右上角 **賣家登入** → **廠商專區**
+docs/payments/ecpay.md,14,## 步驟二：進入系統介接設定
+docs/payments/ecpay.md,16,1. 點選左側選單的 **系統設定**
+docs/payments/ecpay.md,17,2. 選擇 **系統介接設定**
+docs/payments/ecpay.md,21,3. 找到 **介接Hash Key** 和 **介接Hash IV**
+docs/payments/ecpay.md,25,## 步驟三：填入 Stream Toolkit
+docs/payments/ecpay.md,27,1. 開啟 Stream Toolkit
+docs/payments/ecpay.md,28,2. 點選左下選單的 **設定**
+docs/payments/ecpay.md,29,3. **贊助平台串接** 找到 **綠界**
+docs/payments/ecpay.md,30,4. 將 **系統介接設定** 中的 **介接 HashKey**、**介接 HashIV**，分別貼入 **Hash Key** 和 **Hash IV** 欄位
+docs/payments/ecpay.md,31,5. 點擊 **儲存**
+docs/payments/ecpay.md,35,## 步驟四：設定通知網址
+docs/payments/ecpay.md,37,1. 複製 **綠界** 的 **幕後通知網址**
+docs/payments/ecpay.md,41,2. 綠界廠商專區裡找到 **收款工具** → **實況主收款**
+docs/payments/ecpay.md,45,3. 將 **幕後通知網址** 貼到 **付款完成通知回傳網址** 欄位
+docs/payments/ecpay.md,49,4. 點擊 **儲存設定**
+docs/payments/ecpay.md,51,## 常見問題
+docs/payments/ecpay.md,53,**Q：登入後看不到「系統設定」？**
+docs/payments/ecpay.md,54,帳號可能尚未完成審核。請至「廠商資料管理」確認審核狀態。
+docs/payments/ecpay.md,56,**Q：HashKey 可以公開嗎？**
+docs/payments/ecpay.md,57,不行。HashKey 和 HashIV 屬於私密金鑰，請勿截圖分享或貼到公開場合。
+docs/services/deepl.md,5,# DeepL API Key 取得
+docs/services/deepl.md,7,DeepL API Key 用於以下功能的自動翻譯：
+docs/services/deepl.md,8,- **語音翻譯** — 將語音轉文字後自動翻譯
+docs/services/deepl.md,9,- **聊天室** — 自動翻譯觀眾訊息
+docs/services/deepl.md,11,## 步驟一：登入 DeepL 帳號
+docs/services/deepl.md,13,前往 [DeepL](https://www.deepl.com) 並登入帳號。若還沒有帳號，需先註冊。
+docs/services/deepl.md,15,## 步驟二：進入 Account 設定
+docs/services/deepl.md,17,點擊右上角的 **頭貼圖示**，選擇 **Account**。
+docs/services/deepl.md,21,## 步驟三：切換到 API Keys & limits 分頁
+docs/services/deepl.md,23,點選 **API Keys & limits** 分頁。
+docs/services/deepl.md,27,## 步驟四：建立新的 API Key
+docs/services/deepl.md,29,1. 點擊 **Create key +**
+docs/services/deepl.md,30,2. **Name your key**：隨意輸入名稱（例如 `Stream Toolkit`）
+docs/services/deepl.md,31,3. **Permissions**：選擇 **All access**
+docs/services/deepl.md,32,4. 點擊 **Create Key**
+docs/services/deepl.md,38,## 步驟五：複製並填入 App
+docs/services/deepl.md,40,1. 複製產生的 API Key
+docs/services/deepl.md,41,2. 回到 Stream Toolkit，貼入對應的 **DeepL API Key** 欄位
+docs/services/deepl.md,45,## 常見問題
+docs/services/deepl.md,47,**Q：DeepL 免費試用版有用量限制嗎？**
+docs/services/deepl.md,48,"有。免費試用版提供 1,000,000 字元額度，且僅限一個月內使用。如需持續使用高品質翻譯，請自行訂閱 DeepL 付費方案。"
+docs/services/deepl.md,50,**Q：API Key 外洩怎麼辦？**
+docs/services/deepl.md,51,回到 DeepL Account → API Keys & limits，刪除舊的 Key 並重新建立一個。
+sidebars.js,-,快速開始
+sidebars.js,-,平台設定
+sidebars.js,-,金流設定
+sidebars.js,-,第三方服務
+docusaurus.config.js,-,直播工具箱

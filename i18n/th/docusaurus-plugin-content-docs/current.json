@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.快速開始": {
+    "message": "เริ่มต้นใช้งานด่วน",
+    "description": "The label for category '快速開始' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.平台設定": {
+    "message": "การตั้งค่าแพลตฟอร์ม",
+    "description": "The label for category '平台設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.金流設定": {
+    "message": "การตั้งค่าการชำระเงิน",
+    "description": "The label for category '金流設定' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.第三方服務": {
+    "message": "บริการจากบุคคลที่สาม",
+    "description": "The label for category '第三方服務' in sidebar 'tutorialSidebar'"
+  }
+}
