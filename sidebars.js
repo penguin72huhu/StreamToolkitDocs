@@ -14,6 +14,7 @@ const sidebars = {
       label: '平台設定',
       items: [
         'platforms/youtube',
+        'platforms/youtube-settings',
         'platforms/twitch',
       ],
     },
