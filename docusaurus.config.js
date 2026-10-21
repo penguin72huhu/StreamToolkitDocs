@@ -106,6 +106,11 @@ const config = {
       },
       footer: {
         style: 'dark',
+        // Google OAuth / YouTube API review looks for these from the homepage.
+        links: [
+          { label: 'Privacy Policy', to: '/privacy' },
+          { label: 'Terms of Service', to: '/terms' },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Stream Toolkit. Built with Docusaurus.`,
       },
       prism: {
