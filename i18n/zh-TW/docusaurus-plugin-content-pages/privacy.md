@@ -26,6 +26,8 @@ title: 隱私權政策
 
 你可以隨時刪除上述資料夾來清除所有本機資料。
 
+本程式不使用 Cookie 或類似技術追蹤你，也不顯示廣告，不讓第三方投放廣告。
+
 ## 2. 經過我們伺服器的資料
 
 本程式使用一個由我們管理、架設在 Cloudflare 上的伺服器（以下稱「伺服器」），只用於下列用途：
@@ -57,7 +59,7 @@ title: 隱私權政策
 
 ## 4. YouTube API 服務
 
-本程式使用 **YouTube API 服務**。使用本程式的 YouTube 相關功能，即表示你同意受 [YouTube 服務條款](https://www.youtube.com/t/terms)約束；Google 如何處理資料，請參閱 [Google 隱私權政策](https://policies.google.com/privacy)。
+本程式使用 **YouTube API 服務**。使用本程式的 YouTube 相關功能，即表示你同意受 [YouTube 服務條款](https://www.youtube.com/t/terms)約束；Google 如何處理資料，請參閱 [Google 隱私權政策](http://www.google.com/policies/privacy)。
 
 當你在本程式用 Google 帳號登入時，本程式會依你授權的範圍使用以下 YouTube 資料：
 
@@ -73,9 +75,15 @@ title: 隱私權政策
 
 如果你在舊版本填過自己的 YouTube API 金鑰，上述公開資料的查詢可能會改用該金鑰，而不是你的 Google 登入。
 
-這些資料只用於上述功能，只存在你的電腦上，不會傳送到我們的伺服器（登入時的權杖交換除外，見第 2 節），也不會分享給任何第三方。從 YouTube 取得的資料會在使用時即時讀取；本程式保存在你電腦上的觀眾顯示名稱、新粉絲紀錄、已通知過的訂閱者清單，最長保存 30 天後重新取得或刪除。你匯入的會員等級名稱屬於你的設定，會保留到你修改或刪除為止。
+這些資料只用於上述功能，只存在你的電腦上，不會傳送到我們的伺服器（登入時的權杖交換除外，見第 2 節），也不會分享給任何第三方。從 YouTube 取得的資料會在使用時即時讀取。本程式保存在你電腦上的 YouTube 資料，最長 30 天內會重新取得或刪除：
 
-**撤銷授權**：你可以隨時在本程式的設定頁，按 YouTube 旁的「解除連結」，同時會撤銷本程式在你 Google 帳戶的存取權；也可以到 [Google 帳戶的第三方存取權設定](https://myaccount.google.com/connections)移除本程式的存取權。撤銷後，本程式會停止存取你的 YouTube 資料，你可以刪除第 1 節所述的資料夾來移除本機資料。
+- 觀眾顯示名稱、新粉絲紀錄、已通知過的訂閱者清單、學到的禮物寶石數，超過 30 天即刪除。
+- 你的頻道名稱，登入期間每天重新取得一次。
+- 匯入的會員等級名稱，登入期間每 30 天自動重新匯入一次。
+
+Stream Toolkit 使用與轉移從 Google API 取得的資訊，會遵守 [Google API 服務使用者資料政策](https://developers.google.com/terms/api-services-user-data-policy)，包括其中的「有限使用」規定。
+
+**撤銷授權**：你可以隨時在本程式的設定頁，按 YouTube 旁的「解除連結」，同時會撤銷本程式在你 Google 帳戶的存取權。此外，你也可以隨時到 Google 安全性設定頁 [https://security.google.com/settings/security/permissions](https://security.google.com/settings/security/permissions) 撤銷本程式對你資料的存取權。撤銷後，本程式會停止存取你的 YouTube 資料，你可以刪除第 1 節所述的資料夾來移除本機資料。
 
 ## 5. 兒童
 

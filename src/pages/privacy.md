@@ -26,6 +26,8 @@ If you have Steam Cloud enabled, regular settings are synced to your Steam accou
 
 You can delete that folder at any time to remove all local data.
 
+The App does not use cookies or similar technology to track you, and does not show advertisements or let third parties serve advertisements.
+
 ## 2. Data that passes through our server
 
 The App uses a server we operate on Cloudflare (the "Server") only for the following:
@@ -57,7 +59,7 @@ Depending on the features you enable, the App connects directly to the following
 
 ## 4. YouTube API Services
 
-The App uses **YouTube API Services**. By using the App's YouTube features, you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms). For how Google handles data, see the [Google Privacy Policy](https://policies.google.com/privacy).
+The App uses **YouTube API Services**. By using the App's YouTube features, you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms). For how Google handles data, see the [Google Privacy Policy](http://www.google.com/policies/privacy).
 
 When you sign in with Google in the App, it uses the following YouTube data within the scope you authorize:
 
@@ -73,9 +75,15 @@ When you sign in with Google in the App, it uses the following YouTube data with
 
 If you entered your own YouTube API key in an earlier version, the App may use that key instead of your Google sign-in for the public lookups above.
 
-This data is used only for those features, is stored only on your computer, is never sent to our Server (except the token exchange at sign-in, see Section 2), and is never shared with third parties. YouTube data is read when it is needed. Data the App keeps on your computer is refreshed or deleted within 30 days: viewer display names, the new follower history, and the list of subscribers already announced. Membership level names you import are part of your settings and stay until you change or delete them.
+This data is used only for those features, is stored only on your computer, is never sent to our Server (except the token exchange at sign-in, see Section 2), and is never shared with third parties. YouTube data is read when it is needed. YouTube data the App keeps on your computer is refreshed or deleted within 30 days:
 
-**Revoking access**: click **Disconnect** next to YouTube in the App's Settings at any time — this also revokes the App's access in your Google account — or remove the App's access in your [Google Account's third-party connections](https://myaccount.google.com/connections). After revoking, the App stops accessing your YouTube data, and you can delete the folder described in Section 1 to remove local data.
+- Viewer display names, the new follower history, the list of subscribers already announced, and learned gift Jewel amounts are deleted after 30 days.
+- Your channel's name is read again every day while you are signed in.
+- Imported membership level names are imported again automatically every 30 days while you are signed in.
+
+Stream Toolkit's use and transfer of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
+**Revoking access**: click **Disconnect** next to YouTube in the App's Settings at any time — this also revokes the App's access in your Google account. In addition, you can revoke the App's access to your data at any time via the Google security settings page at [https://security.google.com/settings/security/permissions](https://security.google.com/settings/security/permissions). After revoking, the App stops accessing your YouTube data, and you can delete the folder described in Section 1 to remove local data.
 
 ## 5. Children
 
