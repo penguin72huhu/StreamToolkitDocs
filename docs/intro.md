@@ -92,4 +92,4 @@ Stream Toolkit runs on your own computer, and your settings and records stay the
 
 If you connect your YouTube account by signing in with Google, Stream Toolkit uses that access only for features you can see in the app: finding your current live stream and connecting to its chat, letting your chat bot post replies, timing stream markers, showing new-subscriber alerts, and importing your channel's membership level names. It never sells your data or uses it for advertising.
 
-See our [Privacy Policy](https://penguin72huhu.github.io/StreamToolkitDocs/privacy/) for exactly what is accessed, how long it is kept, and how to revoke access, and our [Terms of Service](https://penguin72huhu.github.io/StreamToolkitDocs/terms/).
+See our [Privacy Policy](https://snowpompom.fyi/StreamToolkitDocs/privacy/) for exactly what is accessed, how long it is kept, and how to revoke access, and our [Terms of Service](https://snowpompom.fyi/StreamToolkitDocs/terms/).
