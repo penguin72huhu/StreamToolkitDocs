@@ -85,3 +85,11 @@ Stream Toolkit 是專為實況主打造的萬用直播工具箱，告別手忙�
 - Stripe
 - 歐付寶
 - 綠界
+
+## 🔒 你的資料
+
+Stream Toolkit 在你自己的電腦上執行，設定與紀錄都存在你的電腦裡。
+
+如果你以 Google 帳號登入連結 YouTube，Stream Toolkit 只會把這份存取權用在 App 裡看得到的功能：找到你目前的直播並連接聊天室、讓聊天機器人回覆、計算精華標記的時間、顯示新訂閱通知，以及匯入你頻道的會員等級名稱。我們不會出售你的資料，也不會用於廣告。
+
+存取哪些資料、保存多久、如何撤銷授權，請參閱[隱私權政策](https://penguin72huhu.github.io/StreamToolkitDocs/zh-TW/privacy/)；另請參閱[服務條款](https://penguin72huhu.github.io/StreamToolkitDocs/zh-TW/terms/)。
