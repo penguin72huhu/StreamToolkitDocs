@@ -12,7 +12,7 @@ Shows a list of recent donations on stream: platform icon, donor name, amount an
 http://127.0.0.1:7272/sponsors
 ```
 
-Copy the URL from the top of the **Donation Board Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Copy the URL from the top of the **Donation Board Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 Use the switch next to **Donation Board** in the left sidebar to show or hide the board in OBS. When it is off, the board fades out. Donations are still recorded while it is off.
 
@@ -36,9 +36,9 @@ Tick the platforms whose donations should be recorded: **Twitch**, **YouTube**, 
 - **Show viewer names instead of @handles**: only available once you sign in with Google.
 - **Counted events**: **Super Chat**, **Super Sticker**, **New member**, **Membership renewal**, **Gifted membership**, **Jewels**. **Jewels** needs Google sign-in. Jewels gifts are shown as a jewel icon with the number of jewels instead of a money amount.
 
-If the YouTube live chat is not linked, the row shows **Chat URL not connected** with **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). If a membership event is ticked but no membership prices are set, click **⚠ No membership prices** to go set them. See [YouTube Settings](../platforms/youtube-settings.md).
+If the YouTube live chat is not linked, the row shows **Chat URL not connected** with **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). If a membership event is ticked but no membership prices are set, click **⚠ No membership prices** to go set them. See [YouTube Settings](../platforms/youtube-settings).
 
-To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal.md), [Stripe](../payments/stripe.md), [O'Pay](../payments/opay.md) and [ECPay](../payments/ecpay.md).
+To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal), [Stripe](../payments/stripe), [O'Pay](../payments/opay) and [ECPay](../payments/ecpay).
 
 ### Settings
 
@@ -73,7 +73,7 @@ When **Auto-convert to my currency** is on, the range is compared against the co
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the board's CSS. **Reset to Default** restores the default CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes.md).
+Expand **Custom CSS** to edit the board's CSS. **Reset to Default** restores the default CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes).
 
 ## History Tab
 
@@ -89,7 +89,7 @@ Lists the saved records with the record count.
 - Click **Clear** to delete all records. A confirmation appears first. This cannot be undone.
 
 :::info Trial Version
-Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the board shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the board shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

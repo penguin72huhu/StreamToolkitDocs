@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # OBS Scene Control
 
-**OBS Scene Control** lets you switch scenes and show/hide sources in your streaming software with global hotkeys or from [Quick Tools](./quick-tools.md). It works with **OBS Studio**, **Streamlabs** and **Meld Studio**.
+**OBS Scene Control** lets you switch scenes and show/hide sources in your streaming software with global hotkeys or from [Quick Tools](./quick-tools). It works with **OBS Studio**, **Streamlabs** and **Meld Studio**.
 
 This feature has no overlay, so there is nothing to add in OBS as a browser source.
 
@@ -82,7 +82,7 @@ A scene or source that no longer exists in your software is marked in red. Pick 
 
 ## Using It from Quick Tools
 
-When the feature is on and at least one hotkey entry exists, [Quick Tools](./quick-tools.md) shows an **OBS Scene Control** card with a button for each entry. Clicking a button does the same as pressing its hotkey.
+When the feature is on and at least one hotkey entry exists, [Quick Tools](./quick-tools) shows an **OBS Scene Control** card with a button for each entry. Clicking a button does the same as pressing its hotkey.
 
 ## Error Messages
 
@@ -97,7 +97,7 @@ When a hotkey or button is used, these messages may pop up:
 ## Trial Version Limits
 
 :::info
-The trial version allows **1** hotkey entry in total (Switch Scene and Toggle Sources combined). See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+The trial version allows **1** hotkey entry in total (Switch Scene and Toggle Sources combined). See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

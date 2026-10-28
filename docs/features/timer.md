@@ -43,7 +43,7 @@ When the remaining time reaches this value, the timer text switches to the **War
 
 The sound played when the countdown reaches 0. Choose **None** or one of the built-in sounds (**Chime**, **Coin**, **Bell**, **Pop**, **Fanfare**). Click **▶** to test it. To use your own file, click **Choose Sound** and pick one from the asset manager.
 
-The sound is played by the OBS browser source, so turn on **Control audio via OBS** for the timer source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+The sound is played by the OBS browser source, so turn on **Control audio via OBS** for the timer source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 ### Time Options
 
@@ -75,7 +75,7 @@ For donations, the amount is converted to the currency selected in the app's Set
 :::note
 - Automatic triggers only affect countdown timers
 - Time options with an automatic trigger still appear as buttons in the control panel, so you can also click them by hand
-- **Twitch New Sub** applies once per subscription event: a gift of several subs applies it once. Resubscriptions apply it only when **Count Resubscriptions** is on in [Twitch Goal Bar](./goal.md)
+- **Twitch New Sub** applies once per subscription event: a gift of several subs applies it once. Resubscriptions apply it only when **Count Resubscriptions** is on in [Twitch Goal Bar](./goal)
 :::
 
 ### Control Shortcuts
@@ -86,7 +86,7 @@ Set keyboard shortcuts for this timer:
 - **Lap Shortcut** (stopwatch only)
 - **Reset Shortcut**
 
-See also [Hotkeys](./hotkeys.md).
+See also [Hotkeys](./hotkeys).
 
 ## Step 3: Appearance
 
@@ -110,7 +110,7 @@ Switch to the **Settings** tab. Under **Control Panel**, pick a **Display Mode**
 
 In **Multiple Timers** mode, choose timers from **Add to Display**. Each added timer gets its own card with its **OBS Source URL**. Click **Copy** to copy it. Click **✕** on a card to remove it from the display.
 
-Add the copied URL to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Add the copied URL to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 :::tip
 Also turn on the switch next to **Timer** in the left sidebar (**Turn on OBS output**). While it is off, the timer is hidden in OBS.
@@ -125,10 +125,10 @@ Each timer card in the **Settings** tab has:
 - **Reset**: stops the timer and returns it to the initial time (0 for a stopwatch), clearing laps
 - **Add Time** (countdown only): one button for each time option
 
-The running time is shown only in the OBS overlay, not on the settings page. You can also control timers from the [Quick Tools](./quick-tools.md) window, which shows the current time as well.
+The running time is shown only in the OBS overlay, not on the settings page. You can also control timers from the [Quick Tools](./quick-tools) window, which shows the current time as well.
 
 {/* TODO: 截圖 — 計時器控制台 */}
 
 :::info Trial version limits
-You can create only **1** timer. See [Trial vs. Full Version](../getting-started/trial-comparison.md) for details.
+You can create only **1** timer. See [Trial vs. Full Version](../getting-started/trial-comparison) for details.
 :::

@@ -21,7 +21,7 @@ Click **⚙️ Settings** at the bottom of the left menu. This page holds app-wi
 
 ### Twitch
 
-Click **Connect Account** and authorize in the browser. Once connected it shows **Connected @your-name** and a **Disconnect** button. Full steps: [Twitch Settings](../platforms/twitch.md).
+Click **Connect Account** and authorize in the browser. Once connected it shows **Connected @your-name** and a **Disconnect** button. Full steps: [Twitch Settings](../platforms/twitch).
 
 After connecting, **▸ Conversion Settings** sets what Bits and subs are worth in your donation currency:
 
@@ -31,7 +31,7 @@ After connecting, **▸ Conversion Settings** sets what Bits and subs are worth 
 
 ### YouTube
 
-1. Click **Connect Account** and sign in with Google. Step by step: [YouTube Settings](../platforms/youtube-settings.md)
+1. Click **Connect Account** and sign in with Google. Step by step: [YouTube Settings](../platforms/youtube-settings)
 2. Once connected, it shows **Connected: channel name**. **Disconnect** unlinks the account
 3. Choose how to find the live chat:
    - **Detect the current stream**: needs Google sign-in. Click **Connect** to search your channel for the current or upcoming stream. If there are several, pick one from the list
@@ -49,10 +49,10 @@ After connecting, **▸ Conversion Settings** sets what Bits and subs are worth 
 
 Click a gateway to expand it. Each has a **Tutorial here** link to its setup guide:
 
-- [PayPal](../payments/paypal.md)
-- [Stripe](../payments/stripe.md)
-- [O'Pay](../payments/opay.md)
-- [ECPay](../payments/ecpay.md)
+- [PayPal](../payments/paypal)
+- [Stripe](../payments/stripe)
+- [O'Pay](../payments/opay)
+- [ECPay](../payments/ecpay)
 
 ### Test Alert
 
@@ -69,5 +69,5 @@ Click the **i** button next to "Stream Toolkit" at the top of the left menu to s
 - **Donation Platform Integration** is only available in the full version
 - YouTube membership **Conversion Settings** are only available in the full version
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::

@@ -35,7 +35,7 @@ Once the wheel has options, each one gets a **Weight** field (minimum 1, default
 - **Minimal**: the built-in white and gray scheme
 - **Custom**: create your own color scheme. Enter a **Name**, pick **Colors (3–5)** with **＋** to add a color and **✕** to remove one, then click **Add**
 
-To change a custom theme, click its **✎** button. To delete it, click **✕**. Custom themes are also offered as color schemes for the wheel animation in [Giveaways](./lottery.md).
+To change a custom theme, click its **✎** button. To delete it, click **✕**. Custom themes are also offered as color schemes for the wheel animation in [Giveaways](./lottery).
 
 ### Remove option after draw
 
@@ -52,7 +52,7 @@ Switch to the **Settings** tab and pick a **Display Mode**:
 
 In **Multiple Wheels** mode, choose wheels from **Add to Wheel Display**. Each added wheel gets its own card with its **OBS Source URL**. Click **Copy** to copy it. Click **✕** on a card to remove that wheel from the display.
 
-Add the copied URL to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). The Spin Wheel plays no sound, so you don't need to turn on "Control audio via OBS".
+Add the copied URL to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). The Spin Wheel plays no sound, so you don't need to turn on "Control audio via OBS".
 
 :::tip
 Also turn on the switch next to **Spin Wheel** in the left sidebar (**Turn on OBS output**). While it is off, the overlay stays hidden.
@@ -67,7 +67,7 @@ On each wheel card in the **Settings** tab:
 
 The card's **Winners** list collects every result since the last **Reset**.
 
-You can also use **Spin** and **Reset** from the [Quick Tools](./quick-tools.md) window.
+You can also use **Spin** and **Reset** from the [Quick Tools](./quick-tools) window.
 
 {/* TODO: 截圖 — 轉盤設定分頁與 OBS 畫面 */}
 
@@ -79,5 +79,5 @@ The **History** tab keeps one record for each round, from the first spin up to t
 - You can create only **1** wheel
 - The OBS overlay shows a watermark
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::

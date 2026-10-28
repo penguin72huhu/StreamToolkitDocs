@@ -12,13 +12,13 @@ Pops up an alert with an image, sound, donor name, amount and message when someo
 http://127.0.0.1:7272/donate-alert
 ```
 
-Copy the URL from the top of the **Donation Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Copy the URL from the top of the **Donation Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 :::warning
 Alerts play a sound. Tick **Control audio via OBS** in the browser source properties, or the sound won't be heard on stream.
 :::
 
-Use the switch next to **Donation Alerts** in the left sidebar to turn alerts on or off. While it is off, no alerts are shown (test alerts included), but donations are still recorded on the [Donation Board](./sponsors.md).
+Use the switch next to **Donation Alerts** in the left sidebar to turn alerts on or off. While it is off, no alerts are shown (test alerts included), but donations are still recorded on the [Donation Board](./sponsors).
 
 When several donations arrive close together, the alerts are queued and shown one after another.
 
@@ -42,9 +42,9 @@ Tick the platforms that should trigger an alert: **Twitch**, **YouTube**, **PayP
 - **Show viewer names instead of @handles**: only available once you sign in with Google.
 - **Counted events**: **Super Chat**, **Super Sticker**, **New member**, **Membership renewal**, **Gifted membership**, **Jewels**. **Jewels** needs Google sign-in.
 
-If the YouTube live chat is not linked, the row shows **Chat URL not connected** with **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). If a membership event is ticked but no membership prices are set, click **⚠ No membership prices** to go set them. See [YouTube Settings](../platforms/youtube-settings.md).
+If the YouTube live chat is not linked, the row shows **Chat URL not connected** with **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). If a membership event is ticked but no membership prices are set, click **⚠ No membership prices** to go set them. See [YouTube Settings](../platforms/youtube-settings).
 
-To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal.md), [Stripe](../payments/stripe.md), [O'Pay](../payments/opay.md) and [ECPay](../payments/ecpay.md).
+To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal), [Stripe](../payments/stripe), [O'Pay](../payments/opay) and [ECPay](../payments/ecpay).
 
 ### Settings
 
@@ -88,7 +88,7 @@ Pick a built-in sound: **None**, **Chime** (default), **Coin**, **Bell**, **Pop*
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes.md).
+Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes).
 
 ## Testing Alerts
 
@@ -100,11 +100,11 @@ On the **Settings** page, click **Test Alert** next to **Donation Platform Integ
 The **YouTube Super Chat Test** section lets you enter a raw **Amount String** (e.g. `$5.00`, `¥500`, `NT$150`) and click **Send Test Super Chat** to test amount parsing and currency conversion.
 
 :::note
-A test alert is handled like a real donation: it is also added to the [Donation Goal Bar](./donate.md) and the [Donation Board](./sponsors.md) if those platforms are ticked there.
+A test alert is handled like a real donation: it is also added to the [Donation Goal Bar](./donate) and the [Donation Board](./sponsors) if those platforms are ticked there.
 :::
 
 :::info Trial Version
-Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the alert shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the alert shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

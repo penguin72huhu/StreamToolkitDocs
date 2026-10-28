@@ -12,7 +12,7 @@ Pops up an alert on stream when someone follows you on Twitch or subscribes to y
 http://127.0.0.1:7272/fan-alert
 ```
 
-Copy the URL from the top of the **New Follower Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Copy the URL from the top of the **New Follower Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 :::warning
 Alerts play a sound. Tick **Control audio via OBS** in the browser source properties, or the sound won't be heard on stream.
@@ -20,7 +20,7 @@ Alerts play a sound. Tick **Control audio via OBS** in the browser source proper
 
 Use the switch next to **New Follower Alerts** in the left sidebar to turn alerts on or off. While it is off, new followers are neither shown nor recorded, and the test buttons don't work either.
 
-When several followers arrive close together, the alerts are queued and shown one after another. This overlay has its own queue, so it never waits behind [Donation Alerts](./donate-alert.md).
+When several followers arrive close together, the alerts are queued and shown one after another. This overlay has its own queue, so it never waits behind [Donation Alerts](./donate-alert).
 
 {/* TODO: 截圖 — 新粉絲通知設定頁 */}
 
@@ -30,8 +30,8 @@ When several followers arrive close together, the alerts are queued and shown on
 
 Tick the platforms that should trigger an alert: **Twitch** and **YouTube** (both ticked by default). A green dot means the platform is connected; otherwise the row shows **Not authorized**.
 
-- **Twitch**: every new follow triggers an alert right away. Connect Twitch first: [Twitch Settings](../platforms/twitch.md).
-- **YouTube**: new subscribers. Sign in with Google first: [YouTube Settings](../platforms/youtube-settings.md).
+- **Twitch**: every new follow triggers an alert right away. Connect Twitch first: [Twitch Settings](../platforms/twitch).
+- **YouTube**: new subscribers. Sign in with Google first: [YouTube Settings](../platforms/youtube-settings).
 
 How YouTube subscribers are found:
 
@@ -87,7 +87,7 @@ Write the line shown on the alert. Use `{name}` for the follower's name and `{pl
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes.md).
+Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes).
 
 ## History Tab
 
@@ -97,7 +97,7 @@ Lists recent new followers from both platforms, newest first: platform, name and
 - Click **Clear** to empty the list.
 
 :::info Trial Version
-Custom CSS is only available in the full version, and the alert shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+Custom CSS is only available in the full version, and the alert shows a watermark in OBS. See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

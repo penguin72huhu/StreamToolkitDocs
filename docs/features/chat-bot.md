@@ -16,7 +16,7 @@ The page has three tabs: **Settings**, **Timed Messages**, and **Keyword Replies
 
 ## Settings Tab
 
-Under **Platforms**, click **Twitch** to turn it on (click again to turn it off). The dot next to it lights up when Twitch is connected; otherwise it shows **(Not connected)**. Connect Twitch first: [Twitch Settings](../platforms/twitch.md).
+Under **Platforms**, click **Twitch** to turn it on (click again to turn it off). The dot next to it lights up when Twitch is connected; otherwise it shows **(Not connected)**. Connect Twitch first: [Twitch Settings](../platforms/twitch).
 
 **YouTube** is shown as **Coming soon** and cannot be turned on yet.
 
@@ -55,7 +55,7 @@ Replies when a viewer's message starts with a command.
 
 Keyword replies work at any time, live or not.
 
-A command cannot be the same as another keyword reply, or as a command already used by [Song Requests](./song-request.md) or the [Giveaways](./lottery.md) keyword.
+A command cannot be the same as another keyword reply, or as a command already used by [Song Requests](./song-request) or the [Giveaways](./lottery) keyword.
 
 ## Managing the List
 
@@ -71,5 +71,5 @@ In both tabs, each item has:
 - 1 timed message and 1 keyword reply
 - Every message ends with ` (by StreamToolkit)`, so the maximum message length is shorter
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::

@@ -14,7 +14,7 @@ The page has three tabs: **Image**, **Video** and **Sound**. Each tab has its ow
 | **Video** | `http://127.0.0.1:7272/videoboard` | Required |
 | **Sound** | `http://127.0.0.1:7272/soundboard` | Required |
 
-Click **Copy** next to each URL and add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). Videos and sounds play in the OBS source, not inside Stream Toolkit, so you must turn on **Control audio via OBS** for those two sources, or viewers won't hear them.
+Click **Copy** next to each URL and add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). Videos and sounds play in the OBS source, not inside Stream Toolkit, so you must turn on **Control audio via OBS** for those two sources, or viewers won't hear them.
 
 :::tip
 Turn on the switch next to **Media Board** in the left sidebar (**Turn on OBS output**). While it is off, images can't be shown and videos and sounds don't play, whether you use the buttons or the shortcuts.
@@ -25,7 +25,7 @@ Turn on the switch next to **Media Board** in the left sidebar (**Turn on OBS ou
 Images, videos and sounds are all listed as cards:
 
 - Click a card to expand or collapse its settings
-- The checkbox on the right of a card: when checked, the item appears in the launch tools of [Quick Tools](./quick-tools.md). New items are checked by default
+- The checkbox on the right of a card: when checked, the item appears in the launch tools of [Quick Tools](./quick-tools). New items are checked by default
 - **✕** deletes the item
 - If a local file has been moved or deleted, the card shows **File not found**
 
@@ -37,7 +37,7 @@ Each item can have its own shortcut:
 2. Press the key combination you want, then release it. Press **Esc** to cancel
 3. To remove the shortcut, click **Clear**
 
-If the combination is already used by another feature, it is not saved and the button shows a conflict message. The shortcut works even when Stream Toolkit is not the active window. All shortcuts are also listed on the [Hotkeys](./hotkeys.md) page.
+If the combination is already used by another feature, it is not saved and the button shows a conflict message. The shortcut works even when Stream Toolkit is not the active window. All shortcuts are also listed on the [Hotkeys](./hotkeys) page.
 
 ## Image
 
@@ -109,7 +109,7 @@ Click **▶** on a card to play the sound in OBS. Click **■** to stop it. Only
 - You can add only **1** image, **1** video and **1** sound
 - The image and video overlays show a watermark
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::
 
 ## FAQ

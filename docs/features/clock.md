@@ -14,7 +14,7 @@ Copy the **OBS Source URL** at the top of the page:
 http://127.0.0.1:7272/clock
 ```
 
-Add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). The clock plays no sound, so you don't need to turn on "Control audio via OBS".
+Add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). The clock plays no sound, so you don't need to turn on "Control audio via OBS".
 
 :::tip
 Also turn on the switch next to **Clock** in the left sidebar (**Turn on OBS output**). While it is off, the clock is hidden in OBS.
@@ -65,5 +65,5 @@ If your CSS overrides a property with `!important`, the matching appearance cont
 - **Show weekday**: when on, pick how the weekday is written (for example **Wednesday**, **WED** or **Wed**)
 
 :::info Trial version limits
-**Custom CSS** is available in the full version only. See [Trial vs. Full Version](../getting-started/trial-comparison.md) for details.
+**Custom CSS** is available in the full version only. See [Trial vs. Full Version](../getting-started/trial-comparison) for details.
 :::

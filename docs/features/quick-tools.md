@@ -42,14 +42,14 @@ Each enabled feature that has controls appears as a card. Cards start collapsed 
 
 | Feature | What the card offers |
 |---------|---------------------|
-| [OBS Scene Control](./obs-scene.md) | Connection status, plus one button per configured scene switch or source toggle (the current scene is highlighted). Buttons are disabled while not connected. The card only appears once at least one hotkey entry exists |
-| [Voice Translation](./voice-translate.md) | **REC** button — hold to record, release to translate |
-| [Stream Highlight Marker](./highlight.md) | **MARK** button. After a mark, the platform icon and timestamp are shown for 5 seconds |
-| [Donation Goal Bar](./donate.md) | Current / goal amount with a progress bar, a **Manually add amount** field with **Add**, and **Reset** |
-| [Timer](./timer.md) | For each displayed timer: name, time, **Start** / **Pause**, **Reset**, and the add-time buttons you configured. Stopwatches show **Stop** and **Lap** instead |
-| [Spin Wheel](./turntable.md) | For each displayed wheel: **Spin** and **Reset** |
-| [Media Board](./multimedia.md) | Buttons for pinned images (show / hide), pinned videos (play) and pinned sounds (play) |
-| [Song Requests](./song-request.md) | **Play** / **Pause**, **Stop**, **Next** |
+| [OBS Scene Control](./obs-scene) | Connection status, plus one button per configured scene switch or source toggle (the current scene is highlighted). Buttons are disabled while not connected. The card only appears once at least one hotkey entry exists |
+| [Voice Translation](./voice-translate) | **REC** button — hold to record, release to translate |
+| [Stream Highlight Marker](./highlight) | **MARK** button. After a mark, the platform icon and timestamp are shown for 5 seconds |
+| [Donation Goal Bar](./donate) | Current / goal amount with a progress bar, a **Manually add amount** field with **Add**, and **Reset** |
+| [Timer](./timer) | For each displayed timer: name, time, **Start** / **Pause**, **Reset**, and the add-time buttons you configured. Stopwatches show **Stop** and **Lap** instead |
+| [Spin Wheel](./turntable) | For each displayed wheel: **Spin** and **Reset** |
+| [Media Board](./multimedia) | Buttons for pinned images (show / hide), pinned videos (play) and pinned sounds (play) |
+| [Song Requests](./song-request) | **Play** / **Pause**, **Stop**, **Next** |
 
 If a control has a hotkey assigned, the hotkey is shown on its button.
 

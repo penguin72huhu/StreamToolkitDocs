@@ -12,7 +12,7 @@ sidebar_position: 3
 http://127.0.0.1:7272/chat
 ```
 
-Add it as a browser source: [How to Add Sources in OBS](../getting-started/obs-source.md). This overlay has no sound.
+Add it as a browser source: [How to Add Sources in OBS](../getting-started/obs-source). This overlay has no sound.
 
 :::info
 Messages are only sent to the overlay while the **Chat** switch in the sidebar is on. Chat is still received while it is off, so features that read chat (polls, giveaways, song requests, etc.) keep working.
@@ -22,8 +22,8 @@ Messages are only sent to the overlay while the **Chat** switch in the sidebar i
 
 Connect the platforms you want to show:
 
-- [Twitch Settings](../platforms/twitch.md)
-- [YouTube Settings](../platforms/youtube-settings.md)
+- [Twitch Settings](../platforms/twitch)
+- [YouTube Settings](../platforms/youtube-settings)
 
 The settings page has two tabs: **Settings** and **Appearance**.
 
@@ -112,7 +112,7 @@ The top of the tab shows a live preview. The color picker next to **Preview** ch
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the overlay's CSS directly. Use **Manage Assets** to upload images to reference in CSS. **Reset to Default** restores the default CSS. See also [Themes](./themes.md).
+Expand **Custom CSS** to edit the overlay's CSS directly. Use **Manage Assets** to upload images to reference in CSS. **Reset to Default** restores the default CSS. See also [Themes](./themes).
 
 :::tip
 If your custom CSS sets one of the appearance fields with `!important`, that field is greyed out in the Appearance settings ("This setting is controlled by custom CSS"). When a theme is applied, the CSS is read-only — restore it before editing.
@@ -125,5 +125,5 @@ If your custom CSS sets one of the appearance fields with `!important`, that fie
 - **Custom CSS** is only available in the full version
 - The **Desktop Chat Window** is only available in the full version
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::

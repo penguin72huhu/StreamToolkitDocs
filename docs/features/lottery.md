@@ -12,7 +12,7 @@ Viewers join by typing a keyword in Twitch or YouTube chat. When entry closes, d
 http://127.0.0.1:7272/lottery
 ```
 
-Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). Giveaways plays no sound, so you don't need to turn on "Control audio via OBS".
+Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). Giveaways plays no sound, so you don't need to turn on "Control audio via OBS".
 
 :::tip
 Also turn on the switch next to **Giveaways** in the left sidebar (**Turn on OBS output**). While it is off, the overlay stays hidden.
@@ -24,7 +24,7 @@ The page has two tabs: **Settings** and **History**.
 
 ### Poll Platform
 
-Click **Twitch** or **YouTube** to choose which platform's chat can enter. You can pick both. A platform that isn't connected shows **(Not connected)** for Twitch or **Chat URL not connected** for YouTube. To connect, see [Twitch Settings](../platforms/twitch.md) and [YouTube Settings](../platforms/youtube-settings.md).
+Click **Twitch** or **YouTube** to choose which platform's chat can enter. You can pick both. A platform that isn't connected shows **(Not connected)** for Twitch or **Chat URL not connected** for YouTube. To connect, see [Twitch Settings](../platforms/twitch) and [YouTube Settings](../platforms/youtube-settings).
 
 ### Giveaway Keyword
 
@@ -52,7 +52,7 @@ The hint shown on the overlay during entry, which tells viewers the keyword and 
   - **Collection Screen Font**: font, font size, and the colors of the name chips (up to 5)
   - **Draw Animation Font**: font and font size of the name cycling during the draw
   - **Reset to Default**: restores these settings
-- **Wheel Animation**: entrants are placed on a wheel that spins to pick the winner. Choose a color scheme: **Minimal** or a custom theme you made in [Spin Wheel](./turntable.md)
+- **Wheel Animation**: entrants are placed on a wheel that spins to pick the winner. Choose a color scheme: **Minimal** or a custom theme you made in [Spin Wheel](./turntable)
 
 While entry is open, you can't change the platforms, keyword, duration, max participants, Remove option after draw, or animation type.
 
@@ -75,5 +75,5 @@ Click **Cancel Giveaway** at any stage to clear all entrants and winners, and th
 The **History** tab keeps one record per giveaway with the time, keyword and number of entrants. Expand a record to see the winners and the full entrant list. Only the last 30 days of giveaway history is kept. To delete a record, click 🗑 and then **Confirm Delete**.
 
 :::info Trial version limits
-The OBS overlay shows a watermark. See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+The OBS overlay shows a watermark. See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::

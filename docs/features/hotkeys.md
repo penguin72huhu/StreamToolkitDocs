@@ -18,15 +18,15 @@ If nothing is set up yet, it shows "No hotkeys set up yet."
 
 | Feature | What the hotkey does |
 |------|------|
-| [Stream Highlight Marker](./highlight.md) | Adds a marker |
-| [Media Board](./multimedia.md) | Plays a sound / shows an image / plays a video (one hotkey per item) |
-| [Voice Translation](./voice-translate.md) | The voice translation hotkey |
-| [OBS Scene Control](./obs-scene.md) | **Switch scene** / **Toggle sources** |
-| [Timer](./timer.md) | **Start / Pause**, **Lap**, **Reset** (per timer) |
+| [Stream Highlight Marker](./highlight) | Adds a marker |
+| [Media Board](./multimedia) | Plays a sound / shows an image / plays a video (one hotkey per item) |
+| [Voice Translation](./voice-translate) | The voice translation hotkey |
+| [OBS Scene Control](./obs-scene) | **Switch scene** / **Toggle sources** |
+| [Timer](./timer) | **Start / Pause**, **Lap**, **Reset** (per timer) |
 
 ## Setting a Hotkey
 
-[Stream Highlight Marker](./highlight.md), [OBS Scene Control](./obs-scene.md), and [Timer](./timer.md) share the same hotkey field. For Media Board and Voice Translation, see their own pages.
+[Stream Highlight Marker](./highlight), [OBS Scene Control](./obs-scene), and [Timer](./timer) share the same hotkey field. For Media Board and Voice Translation, see their own pages.
 
 1. Click the hotkey button
 2. Press the key combination, e.g. `Ctrl+Shift+F1`

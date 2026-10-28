@@ -7,7 +7,7 @@ sidebar_position: 10
 Show progress bars on stream for your Twitch follower, subscription and Bits goals. Each goal type has its own bar, its own settings and its own OBS URL.
 
 :::note Before you start
-The goal bars count Twitch events, so connect your Twitch account first. See [Twitch Settings](../platforms/twitch.md).
+The goal bars count Twitch events, so connect your Twitch account first. See [Twitch Settings](../platforms/twitch).
 :::
 
 ## Step 1: Pick a Goal Type and Add the OBS Source
@@ -20,7 +20,7 @@ At the top of the page, pick a goal type: **Follow**, **Subscriptions** or **Bit
 | **Subscriptions** | `http://127.0.0.1:7272/goal/sub` |
 | **Bits** | `http://127.0.0.1:7272/goal/bits` |
 
-Add each bar you want to show to OBS as a separate browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). The goal bars play no sound, so you don't need to turn on "Control audio via OBS".
+Add each bar you want to show to OBS as a separate browser source. See [How to Add Sources in OBS](../getting-started/obs-source). The goal bars play no sound, so you don't need to turn on "Control audio via OBS".
 
 :::tip
 Also turn on the switch next to **Twitch Goal Bar** in the left sidebar (**Turn on OBS output**). While it is off, the bars are hidden in OBS.
@@ -89,5 +89,5 @@ If your CSS overrides a property with `!important`, the matching appearance cont
 - **Custom CSS** is available in the full version only
 - The OBS overlay shows a watermark
 
-See [Trial vs. Full Version](../getting-started/trial-comparison.md) for details.
+See [Trial vs. Full Version](../getting-started/trial-comparison) for details.
 :::

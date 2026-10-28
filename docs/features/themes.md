@@ -6,15 +6,15 @@ sidebar_position: 20
 
 Share and download overlay looks through the Steam Workshop. A theme can include the appearance of these features:
 
-- [Chat](./chat.md)
-- [Donation Goal Bar](./donate.md)
-- [Donation Alerts](./donate-alert.md)
-- [New Follower Alerts](./fan-alert.md)
-- [Viewer Birthday Alerts](./birthday-alert.md)
-- [Donation Board](./sponsors.md)
-- [Live Polls](./vote.md)
-- [Clock](./clock.md)
-- [Twitch Goal Bar](./goal.md): **Follower Goal**, **Subscription Goal**, **Bits Goal**
+- [Chat](./chat)
+- [Donation Goal Bar](./donate)
+- [Donation Alerts](./donate-alert)
+- [New Follower Alerts](./fan-alert)
+- [Viewer Birthday Alerts](./birthday-alert)
+- [Donation Board](./sponsors)
+- [Live Polls](./vote)
+- [Clock](./clock)
+- [Twitch Goal Bar](./goal): **Follower Goal**, **Subscription Goal**, **Bits Goal**
 
 Open it from **🎨 Themes** at the bottom of the left menu. The page has two tabs: **My Themes** and **Downloaded Themes**. Steam must be running.
 
@@ -83,5 +83,5 @@ Each uploaded theme has:
 :::info Trial Version Limits
 Themes (Steam Workshop) are only available in the full version. In the trial, **🎨 Themes** cannot be opened and themes cannot be applied.
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::

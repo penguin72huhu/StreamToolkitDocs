@@ -18,7 +18,7 @@ The OBS source URL is shown at the top of the page:
 http://127.0.0.1:7272/voice-translate
 ```
 
-Click **Copy** and add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). Voice Translation plays no sound, so you don't need to turn on "Control audio via OBS".
+Click **Copy** and add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). Voice Translation plays no sound, so you don't need to turn on "Control audio via OBS".
 
 The subtitles appear at the bottom of the source: the original text on top and the translation below. They fade out after the **Subtitle Display Duration**.
 
@@ -40,7 +40,7 @@ If the combination is already used by another feature, the button shows **Shortc
 
 The shortcut works even when Stream Toolkit is not the active window. **Hold** it while you speak, then **release** it to recognize and translate. A recording stops automatically after 15 seconds.
 
-You can also hold the **REC** button below the shortcut with the mouse. It works the same way: press to record, release to translate. The [Quick Tools](./quick-tools.md) window has the same **REC** button.
+You can also hold the **REC** button below the shortcut with the mouse. It works the same way: press to record, release to translate. The [Quick Tools](./quick-tools) window has the same **REC** button.
 
 ## Step 3: Recognition Settings
 
@@ -86,7 +86,7 @@ On the **Appearance** tab you can change how the subtitles look. Changes are sav
 :::info Trial version limits
 The **Target Language** is fixed to English. The page shows "The demo only supports translating to English".
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::
 
 ## FAQ

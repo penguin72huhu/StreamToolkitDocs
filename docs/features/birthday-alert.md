@@ -12,7 +12,7 @@ Add your viewers' birthdays to a list. When a listed viewer chats during your st
 http://127.0.0.1:7272/birthday-alert
 ```
 
-Copy the URL from the top of the **Viewer Birthday Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Copy the URL from the top of the **Viewer Birthday Alerts Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 :::warning
 Alerts play a sound. Tick **Control audio via OBS** in the browser source properties, or the sound won't be heard on stream.
@@ -38,8 +38,8 @@ The page has three tabs: **Settings**, **Viewers** and **Appearance**.
 
 Shown when the feature is turned on. Each platform shows whether its chat is connected:
 
-- **Twitch**: if no channel is set, the row shows **No Twitch channel set — link Twitch first** with **Go to settings**. Connect Twitch first: [Twitch Settings](../platforms/twitch.md).
-- **YouTube**: if the chat isn't connected, the row shows **Auto-connect** and **Enter manually** (takes you to the chat URL field in Settings). If you use auto-connect and are signed in with Google, it shows **If it hasn't connected once you're live, press Connect on the Chat page**. See [YouTube Settings](../platforms/youtube-settings.md) and [Chat](./chat.md).
+- **Twitch**: if no channel is set, the row shows **No Twitch channel set — link Twitch first** with **Go to settings**. Connect Twitch first: [Twitch Settings](../platforms/twitch).
+- **YouTube**: if the chat isn't connected, the row shows **Auto-connect** and **Enter manually** (takes you to the chat URL field in Settings). If you use auto-connect and are signed in with Google, it shows **If it hasn't connected once you're live, press Connect on the Chat page**. See [YouTube Settings](../platforms/youtube-settings) and [Chat](./chat).
 
 Once a platform is connected, it also shows **Live**, **Offline** or **Can't tell if live**. Alerts only fire on **Live**.
 
@@ -143,14 +143,14 @@ Write the line shown on the alert. Leave it empty to use the default text: `Happ
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes.md).
+Expand **Custom CSS** to edit the CSS of the style you are editing (unified or the selected platform). **Reset to Default** restores the template CSS, and **Manage Assets** opens the asset manager. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only. See [Themes](./themes).
 
 :::info Trial Version
 - Up to 3 viewers on the list. If the list holds more (e.g. from a full-version save), the extra viewers are shown locked 🔒: they never trigger an alert and can't be edited or replayed.
 - Custom CSS is only available in the full version.
 - The alert shows a watermark in OBS.
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

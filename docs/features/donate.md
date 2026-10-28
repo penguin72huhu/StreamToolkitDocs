@@ -12,7 +12,7 @@ Shows a progress bar on stream toward a donation goal. Donations from the platfo
 http://127.0.0.1:7272/donate
 ```
 
-Copy the URL from the top of the **Donation Goal Bar Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Copy the URL from the top of the **Donation Goal Bar Settings** page and add it to OBS as a Browser Source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 Use the switch next to **Donation Goal Bar** in the left sidebar to show or hide the bar in OBS. When it is off, the bar is hidden.
 
@@ -37,11 +37,11 @@ Tick the platforms whose donations should count toward the bar:
 
 A green dot means the platform is connected; otherwise the row shows **(Not connected)**. These checkboxes only decide what the bar counts. They do not affect Donation Alerts or the Donation Board, which have their own platform lists.
 
-- **YouTube**: if the live chat is not linked, the row shows **Chat URL not connected** with two buttons: **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). See [YouTube Settings](../platforms/youtube-settings.md).
+- **YouTube**: if the live chat is not linked, the row shows **Chat URL not connected** with two buttons: **Auto-connect** (needs Google sign-in) and **Enter manually** (takes you to the chat URL field in Settings). See [YouTube Settings](../platforms/youtube-settings).
 - **YouTube ⚙️**: choose which **Counted events** are added to the bar: **Super Chat**, **Super Sticker**, **New member**, **Membership renewal**, **Gifted membership**, **Jewels**. **Jewels** needs Google sign-in.
 - If any membership event is ticked but no membership prices are set, **⚠ No membership prices** appears. Click it to go to Settings and enter the tier prices under YouTube **Conversion Settings**.
-- How much Twitch Bits and subscriptions are worth is set in Settings → Twitch → **Conversion Settings**. See [Twitch Settings](../platforms/twitch.md).
-- To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal.md), [Stripe](../payments/stripe.md), [O'Pay](../payments/opay.md) and [ECPay](../payments/ecpay.md).
+- How much Twitch Bits and subscriptions are worth is set in Settings → Twitch → **Conversion Settings**. See [Twitch Settings](../platforms/twitch).
+- To connect PayPal, Stripe, O'Pay or ECPay, see [PayPal](../payments/paypal), [Stripe](../payments/stripe), [O'Pay](../payments/opay) and [ECPay](../payments/ecpay).
 
 ### Current Progress
 
@@ -69,10 +69,10 @@ Click **Reset to Default** to restore the default appearance.
 
 ### Custom CSS
 
-Expand **Custom CSS** to edit the bar's CSS. **Reset to Default** restores the default CSS, and **Manage Assets** opens the asset manager for images you want to use in your CSS. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only until you restore it. See [Themes](./themes.md).
+Expand **Custom CSS** to edit the bar's CSS. **Reset to Default** restores the default CSS, and **Manage Assets** opens the asset manager for images you want to use in your CSS. Steam Workshop themes can also be applied here. While a theme is applied, the CSS is read-only until you restore it. See [Themes](./themes).
 
 :::info Trial Version
-Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the overlay shows a watermark. See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+Custom CSS is only available in the full version. Real payment gateways (PayPal / Stripe / O'Pay / ECPay) and the YouTube membership events and Jewels can't be used in the trial, and the overlay shows a watermark. See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::
 
 ## FAQ

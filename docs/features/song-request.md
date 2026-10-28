@@ -12,7 +12,7 @@ Viewers request YouTube songs with a chat command, and the songs play in OBS one
 http://127.0.0.1:7272/song-request
 ```
 
-Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md).
+Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source).
 
 :::warning
 Song requests play sound. In the browser source properties, check **Control audio via OBS**, or the music will not reach your stream.
@@ -35,8 +35,8 @@ Each platform has its own card:
 
 A platform that is not connected shows **(Not connected)** (Twitch) or **Chat URL not connected** (YouTube). Connect it first:
 
-- [Twitch Settings](../platforms/twitch.md)
-- [YouTube Settings](../platforms/youtube-settings.md)
+- [Twitch Settings](../platforms/twitch)
+- [YouTube Settings](../platforms/youtube-settings)
 
 ### Chat Commands
 
@@ -102,7 +102,7 @@ Nothing plays automatically when the app starts. Press **Play** to begin.
 
 Paste a YouTube playlist URL and choose **Loop** or **Shuffle**. When the list runs out, a song from this playlist is added and played automatically. These songs show as **Default List** in the list.
 
-The default playlist is read through your YouTube account, so you must first sign in with Google in [YouTube Settings](../platforms/youtube-settings.md).
+The default playlist is read through your YouTube account, so you must first sign in with Google in [YouTube Settings](../platforms/youtube-settings).
 
 ### Manual Request
 
@@ -120,7 +120,7 @@ Paste a YouTube video URL and click **Add to List** (or press Enter). Manual req
 Check that:
 - The **Song Requests** switch in the left menu is on
 - **Allow requests from this platform** is checked for that platform
-- For Twitch: Twitch chat is read by the [Chat](./chat.md) feature. If you turned Twitch off on the Chat page (and the [Chat Bot](./chat-bot.md) is not using Twitch), Twitch commands are not received
+- For Twitch: Twitch chat is read by the [Chat](./chat) feature. If you turned Twitch off on the Chat page (and the [Chat Bot](./chat-bot) is not using Twitch), Twitch commands are not received
 
 **Q: The default playlist doesn't play?**
 Make sure you are signed in with Google in Settings and the URL is a playlist link (it contains `list=`).
@@ -129,5 +129,5 @@ Make sure you are signed in with Google in Settings and the URL is a playlist li
 - Viewer chat requests are only available in the full version. In the trial, a request from chat fails with the message "Viewer song requests aren't available in the trial". **Manual Request** and the default playlist still work
 - The OBS overlay shows a watermark
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md).
+See [Trial / Full Version Comparison](../getting-started/trial-comparison).
 :::

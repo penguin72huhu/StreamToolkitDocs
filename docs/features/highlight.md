@@ -22,8 +22,8 @@ Turn on the switch next to **Stream Highlight Marker** in the left sidebar. Whil
 
 | Source | How the time is worked out | Requirement |
 |--------|----------------------------|-------------|
-| **Twitch** | Time since your current Twitch stream started | Twitch connected. See [Twitch Settings](../platforms/twitch.md) |
-| **YouTube** | Time since your current YouTube live stream started | Google sign-in. See [YouTube Settings](../platforms/youtube-settings.md) |
+| **Twitch** | Time since your current Twitch stream started | Twitch connected. See [Twitch Settings](../platforms/twitch) |
+| **YouTube** | Time since your current YouTube live stream started | Google sign-in. See [YouTube Settings](../platforms/youtube-settings) |
 | **Manual Alignment** (default) | The value of the manual timer on this page | None |
 
 A dot next to **Twitch** and **YouTube** shows whether it is connected. If not, the option shows **(Not connected)** or **(not signed in with Google)**.
@@ -57,7 +57,7 @@ The default shortcut is `Ctrl+Shift+M`. To change it:
 
 If the combination is already used by another feature, the button shows **This shortcut is already in use** and the shortcut is not saved. The shortcut works even when Stream Toolkit is not the active window.
 
-You can also click the **MARK** button below the shortcut. It does the same thing as the shortcut. The [Quick Tools](./quick-tools.md) window has a **MARK** button too.
+You can also click the **MARK** button below the shortcut. It does the same thing as the shortcut. The [Quick Tools](./quick-tools) window has a **MARK** button too.
 
 ## Step 3: Mark During the Stream
 
@@ -79,5 +79,5 @@ The **Highlight Log** tab lists all markers, newest first. Each row shows the st
 :::info Trial version limits
 **Create Twitch clip when marking** is not available. It is shown as "Available in the full version".
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::

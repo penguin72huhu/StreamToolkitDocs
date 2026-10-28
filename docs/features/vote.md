@@ -12,7 +12,7 @@ Run a poll on stream. Viewers vote by typing an option number in Twitch or YouTu
 http://127.0.0.1:7272/vote
 ```
 
-Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source.md). Live Polls plays no sound, so you don't need to turn on "Control audio via OBS".
+Click **Copy** next to **OBS Source URL** at the top of the page, then add it to OBS as a browser source. See [How to Add Sources in OBS](../getting-started/obs-source). Live Polls plays no sound, so you don't need to turn on "Control audio via OBS".
 
 :::tip
 Also turn on the switch next to **Live Polls** in the left sidebar (**Turn on OBS output**). While it is off, the overlay stays hidden.
@@ -26,8 +26,8 @@ The page has three tabs: **Settings**, **Appearance** and **History**.
 
 Click **Twitch** or **YouTube** to choose which platform's chat can vote. You can pick both. A platform that isn't connected shows **(Not connected)** for Twitch or **Chat URL not connected** for YouTube. Connect it first:
 
-- [Twitch Settings](../platforms/twitch.md)
-- [YouTube Settings](../platforms/youtube-settings.md)
+- [Twitch Settings](../platforms/twitch)
+- [YouTube Settings](../platforms/youtube-settings)
 
 ### Poll Title
 
@@ -74,7 +74,7 @@ The **Appearance** tab has a **Preview** at the top. The color picker next to it
 - **Background Color**: the background of the poll card
 - **Reset to Default**: restores the default appearance. If a theme is applied, it restores the theme's appearance
 
-Under **Custom CSS** you can write your own styles. To share or download looks, see [Themes](./themes.md).
+Under **Custom CSS** you can write your own styles. To share or download looks, see [Themes](./themes).
 
 {/* TODO: 截圖 — 投票外觀分頁 */}
 
@@ -86,5 +86,5 @@ The **History** tab lists each poll's title, time, number of options and total v
 - **Custom CSS** is only available in the full version
 - The OBS overlay shows a watermark
 
-See [Trial / Full Version Comparison](../getting-started/trial-comparison.md) for details.
+See [Trial / Full Version Comparison](../getting-started/trial-comparison) for details.
 :::
