@@ -86,7 +86,7 @@ Stream Toolkit menyediakan **versi uji coba gratis** dan **versi penuh**. Versi 
     </tr>
     <tr>
       <td>Dinding Emote</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Tanda air muncul saat emote ditampilkan</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit menyediakan **versi uji coba gratis** dan **versi penuh**. Versi 
     <tr>
       <td>Media Board (Gambar / Video / Suara)</td>
       <td className="trial-cell">Hanya dapat menambah masing-masing 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Tanpa batasan jumlah</td>
+    </tr>
+    <tr>
+      <td>Kontrol Scene OBS</td>
+      <td className="trial-cell">Hanya dapat membuat 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Tanpa batasan jumlah</td>
+    </tr>
+    <tr>
+      <td>Notifikasi pengikut baru</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Notifikasi ulang tahun penonton</td>
+      <td className="trial-cell">Demo: maksimal 3 penonton</td>
+      <td className="pro-cell"><span className="dot ok"></span> Tanpa batasan jumlah</td>
+    </tr>
+    <tr>
+      <td>Bot Obrolan</td>
+      <td className="trial-cell">Demo: 1 pesan terjadwal dan 1 balasan kata kunci; pesan diakhiri dengan (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Tanpa batasan jumlah</td>
     </tr>
   </tbody>

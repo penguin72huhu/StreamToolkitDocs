@@ -86,7 +86,7 @@ Stream Toolkit oferuje **bezpłatną wersję próbną** oraz **pełną wersję**
     </tr>
     <tr>
       <td>Ściana emotek</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Znak wodny przy wyświetlaniu emotek</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit oferuje **bezpłatną wersję próbną** oraz **pełną wersję**
     <tr>
       <td>Media Board (Obrazy / Filmy / Dźwięki)</td>
       <td className="trial-cell">Można dodać tylko po 1 z każdego</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez limitu ilości</td>
+    </tr>
+    <tr>
+      <td>Sterowanie scenami OBS</td>
+      <td className="trial-cell">Można utworzyć tylko 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez limitu ilości</td>
+    </tr>
+    <tr>
+      <td>Powiadomienia o nowych obserwujących</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Urodziny widzów</td>
+      <td className="trial-cell">Demo: do 3 widzów</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez limitu ilości</td>
+    </tr>
+    <tr>
+      <td>Bot czatu</td>
+      <td className="trial-cell">Demo: 1 wiadomość cykliczna i 1 odpowiedź na słowo kluczowe; wiadomości kończą się dopiskiem (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Bez limitu ilości</td>
     </tr>
   </tbody>

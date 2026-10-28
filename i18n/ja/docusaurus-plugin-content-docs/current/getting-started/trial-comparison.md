@@ -86,7 +86,7 @@ Stream Toolkit には**無料試用版**と**製品版**があります。試用
     </tr>
     <tr>
       <td>エモートウォール</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">エモート表示時に透かしが表示されます</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit には**無料試用版**と**製品版**があります。試用
     <tr>
       <td>メディアボード（画像 / 動画 / 効果音）</td>
       <td className="trial-cell">それぞれ1つのみ追加可能</td>
+      <td className="pro-cell"><span className="dot ok"></span> 数量制限なし</td>
+    </tr>
+    <tr>
+      <td>OBS シーン制御</td>
+      <td className="trial-cell">1つのみ作成可能</td>
+      <td className="pro-cell"><span className="dot ok"></span> 数量制限なし</td>
+    </tr>
+    <tr>
+      <td>新規フォロワー通知</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>視聴者誕生日通知</td>
+      <td className="trial-cell">体験版は最大 3 人</td>
+      <td className="pro-cell"><span className="dot ok"></span> 数量制限なし</td>
+    </tr>
+    <tr>
+      <td>チャットボット</td>
+      <td className="trial-cell">体験版：定期メッセージとキーワード返信は各 1 件まで。メッセージの末尾に (by StreamToolkit) が付きます。</td>
       <td className="pro-cell"><span className="dot ok"></span> 数量制限なし</td>
     </tr>
   </tbody>

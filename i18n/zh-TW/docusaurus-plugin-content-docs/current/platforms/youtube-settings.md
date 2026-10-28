@@ -10,12 +10,20 @@ Stream Toolkit 透過 Google 帳號登入連結你的 YouTube 頻道，不需要
 
 1. 開啟 Stream Toolkit
 2. 點選左下選單的 **設定**
-3. 平台連接中找到 **YouTube**，並點選 **連結帳號**
+3. 平台連結中找到 **YouTube**，並點選 **連結帳號**
+
+   ![連結帳號](./youtube-settings-img/1-not-linked.png)
+
 4. 跳出確認視窗，閱讀 YouTube 服務條款與隱私權政策後，點選 **同意並登入**
+
+   ![同意並登入](./youtube-settings-img/2-consent.png)
+
 5. 瀏覽器會開啟 Google 登入頁面，選擇擁有你 YouTube 頻道的 Google 帳號（帳號底下有多個頻道時，選擇你直播用的那個）
 6. 確認要求的權限後，點選 **繼續**／**允許**
 
 完成後，設定頁的 YouTube 會顯示 **已連結：頻道名稱**。
+
+![已連結](./youtube-settings-img/3-linked.png)
 
 ## 解除連結
 

@@ -11,11 +11,19 @@ Stream Toolkit connects your YouTube channel by signing in with Google, so there
 1. Open Stream Toolkit
 2. Click **Settings** in the bottom left menu
 3. Find **YouTube** under Platform Connections and click **Connect Account**
+
+   ![Connect Account](./youtube-settings-img/1-not-linked.png)
+
 4. A confirmation window opens. Read the YouTube Terms of Service and Privacy Policy, then click **Agree and sign in**
+
+   ![Agree and sign in](./youtube-settings-img/2-consent.png)
+
 5. The browser opens the Google sign-in page. Choose the Google account that owns your YouTube channel (if the account has several channels, pick the one you stream on)
 6. Review the requested permissions and click **Continue** / **Allow**
 
 Once done, the YouTube row in Settings shows **Connected: channel name**.
+
+![Connected](./youtube-settings-img/3-linked.png)
 
 ## Disconnect
 

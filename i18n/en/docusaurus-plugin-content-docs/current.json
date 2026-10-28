@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.第三方服務": {
     "message": "Third-Party Services",
     "description": "The label for category '第三方服務' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.功能教學": {
+    "message": "Feature Guides",
+    "description": "The label for category '功能教學' in sidebar 'tutorialSidebar'"
   }
 }

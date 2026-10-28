@@ -86,7 +86,7 @@ Stream Toolkit nabízí **bezplatnou zkušební verzi** a **plnou verzi**. Zkuš
     </tr>
     <tr>
       <td>Stěna emotikonů</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Vodoznak při zobrazení emotikonů</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit nabízí **bezplatnou zkušební verzi** a **plnou verzi**. Zkuš
     <tr>
       <td>Media Board (Obrázky / Videa / Zvuky)</td>
       <td className="trial-cell">Lze přidat pouze 1 od každého</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez kapacitního omezení</td>
+    </tr>
+    <tr>
+      <td>Ovládání scén OBS</td>
+      <td className="trial-cell">Lze vytvořit pouze 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez kapacitního omezení</td>
+    </tr>
+    <tr>
+      <td>Upozornění na nové sledující</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Narozeniny diváků</td>
+      <td className="trial-cell">Demo: až 3 diváci</td>
+      <td className="pro-cell"><span className="dot ok"></span> Bez kapacitního omezení</td>
+    </tr>
+    <tr>
+      <td>Chatovací bot</td>
+      <td className="trial-cell">Demo: 1 pravidelná zpráva a 1 odpověď na klíčové slovo; zprávy končí textem (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Bez kapacitního omezení</td>
     </tr>
   </tbody>

@@ -86,7 +86,7 @@ Stream Toolkit propose une **version d'essai gratuite** et une **version complè
     </tr>
     <tr>
       <td>Mur d'emotes</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Filigrane affiché lors de l'affichage des emotes</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit propose une **version d'essai gratuite** et une **version complè
     <tr>
       <td>Media Board (Images / Vidéos / Sons)</td>
       <td className="trial-cell">Ne peut ajouter que 1 de chaque</td>
+      <td className="pro-cell"><span className="dot ok"></span> Aucune limite de quantité</td>
+    </tr>
+    <tr>
+      <td>Contrôle des scènes OBS</td>
+      <td className="trial-cell">Ne peut créer que 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Aucune limite de quantité</td>
+    </tr>
+    <tr>
+      <td>Alertes nouveaux abonnés</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Anniversaires des viewers</td>
+      <td className="trial-cell">Démo : jusqu’à 3 viewers</td>
+      <td className="pro-cell"><span className="dot ok"></span> Aucune limite de quantité</td>
+    </tr>
+    <tr>
+      <td>Bot de chat</td>
+      <td className="trial-cell">Démo : 1 message programmé et 1 réponse par mot-clé ; les messages se terminent par (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Aucune limite de quantité</td>
     </tr>
   </tbody>

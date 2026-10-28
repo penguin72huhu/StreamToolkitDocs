@@ -86,7 +86,7 @@ Stream Toolkit erbjuder en **gratis testversion** och en **fullständig version*
     </tr>
     <tr>
       <td>Emote-vägg</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Vattenstämpel visas när emotes visas</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit erbjuder en **gratis testversion** och en **fullständig version*
     <tr>
       <td>Media Board (Bilder / Videor / Ljud)</td>
       <td className="trial-cell">Kan endast lägga till 1 av varje</td>
+      <td className="pro-cell"><span className="dot ok"></span> Ingen mängdbegränsning</td>
+    </tr>
+    <tr>
+      <td>OBS-scenkontroll</td>
+      <td className="trial-cell">Kan endast skapa 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Ingen mängdbegränsning</td>
+    </tr>
+    <tr>
+      <td>Aviseringar för nya följare</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Tittarfödelsedagar</td>
+      <td className="trial-cell">Demo: upp till 3 tittare</td>
+      <td className="pro-cell"><span className="dot ok"></span> Ingen mängdbegränsning</td>
+    </tr>
+    <tr>
+      <td>Chattbot</td>
+      <td className="trial-cell">Demo: 1 tidsinställt meddelande och 1 svar på nyckelord; meddelanden avslutas med (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Ingen mängdbegränsning</td>
     </tr>
   </tbody>

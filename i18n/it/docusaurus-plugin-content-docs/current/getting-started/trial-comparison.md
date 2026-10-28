@@ -86,7 +86,7 @@ Stream Toolkit offre una **versione di prova gratuita** e una **versione complet
     </tr>
     <tr>
       <td>Parete delle emote</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Filigrana visibile quando compaiono le emote</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit offre una **versione di prova gratuita** e una **versione complet
     <tr>
       <td>Media Board (Immagini / Video / Suoni)</td>
       <td className="trial-cell">È possibile aggiungerne solo 1 per ciascuno</td>
+      <td className="pro-cell"><span className="dot ok"></span> Nessun limite di quantità</td>
+    </tr>
+    <tr>
+      <td>Controllo scene OBS</td>
+      <td className="trial-cell">È possibile crearne solo 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Nessun limite di quantità</td>
+    </tr>
+    <tr>
+      <td>Avvisi nuovi follower</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Compleanni degli spettatori</td>
+      <td className="trial-cell">Demo: fino a 3 spettatori</td>
+      <td className="pro-cell"><span className="dot ok"></span> Nessun limite di quantità</td>
+    </tr>
+    <tr>
+      <td>Chat bot</td>
+      <td className="trial-cell">Demo: 1 messaggio programmato e 1 risposta a parola chiave; i messaggi terminano con (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Nessun limite di quantità</td>
     </tr>
   </tbody>
