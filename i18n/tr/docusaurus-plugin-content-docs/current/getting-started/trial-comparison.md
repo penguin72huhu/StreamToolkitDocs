@@ -86,7 +86,7 @@ Stream Toolkit, **ücretsiz bir deneme sürümü** ve **tam sürüm** sunar. Den
     </tr>
     <tr>
       <td>Emoji duvarı</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Emoji gösterildiğinde filigran görünür</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit, **ücretsiz bir deneme sürümü** ve **tam sürüm** sunar. Den
     <tr>
       <td>Media Board (Görseller / Videolar / Sesler)</td>
       <td className="trial-cell">Her birinden yalnızca 1 adet eklenebilir</td>
+      <td className="pro-cell"><span className="dot ok"></span> Miktar sınırı yok</td>
+    </tr>
+    <tr>
+      <td>OBS Sahne Kontrolü</td>
+      <td className="trial-cell">Yalnızca 1 adet oluşturulabilir</td>
+      <td className="pro-cell"><span className="dot ok"></span> Miktar sınırı yok</td>
+    </tr>
+    <tr>
+      <td>Yeni takipçi bildirimleri</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>İzleyici doğum günleri</td>
+      <td className="trial-cell">Deneme: en fazla 3 izleyici</td>
+      <td className="pro-cell"><span className="dot ok"></span> Miktar sınırı yok</td>
+    </tr>
+    <tr>
+      <td>Sohbet Botu</td>
+      <td className="trial-cell">Demo: 1 zamanlı mesaj ve 1 anahtar kelime yanıtı; mesajların sonuna (by StreamToolkit) eklenir.</td>
       <td className="pro-cell"><span className="dot ok"></span> Miktar sınırı yok</td>
     </tr>
   </tbody>

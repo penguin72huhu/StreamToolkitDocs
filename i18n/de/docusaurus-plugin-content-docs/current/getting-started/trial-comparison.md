@@ -86,7 +86,7 @@ Stream Toolkit bietet eine **kostenlose Testversion** und eine **Vollversion**. 
     </tr>
     <tr>
       <td>Emote-Wall</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Wasserzeichen bei angezeigten Emotes</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit bietet eine **kostenlose Testversion** und eine **Vollversion**. 
     <tr>
       <td>Media Board (Bilder / Videos / Sounds)</td>
       <td className="trial-cell">Es kann jeweils nur 1 hinzugefügt werden</td>
+      <td className="pro-cell"><span className="dot ok"></span> Keine Mengenbeschränkung</td>
+    </tr>
+    <tr>
+      <td>OBS-Szenensteuerung</td>
+      <td className="trial-cell">Kann nur 1 erstellt werden</td>
+      <td className="pro-cell"><span className="dot ok"></span> Keine Mengenbeschränkung</td>
+    </tr>
+    <tr>
+      <td>Benachrichtigungen für neue Follower</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Zuschauer-Geburtstage</td>
+      <td className="trial-cell">Demo: bis zu 3 Zuschauer</td>
+      <td className="pro-cell"><span className="dot ok"></span> Keine Mengenbeschränkung</td>
+    </tr>
+    <tr>
+      <td>Chat-Bot</td>
+      <td className="trial-cell">Demo: 1 zeitgesteuerte Nachricht und 1 Schlüsselwort-Antwort; Nachrichten enden mit (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Keine Mengenbeschränkung</td>
     </tr>
   </tbody>

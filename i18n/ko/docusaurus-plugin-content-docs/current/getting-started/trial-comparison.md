@@ -86,7 +86,7 @@ Stream Toolkit은 **무료 체험판**과 **정식판**을 제공합니다. 체�
     </tr>
     <tr>
       <td>이모트 월</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">이모트 표시 시 워터마크 표시</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit은 **무료 체험판**과 **정식판**을 제공합니다. 체�
     <tr>
       <td>미디어 보드 (이미지 / 영상 / 사운드)</td>
       <td className="trial-cell">각각 1개씩만 추가 가능</td>
+      <td className="pro-cell"><span className="dot ok"></span> 수량 제한 없음</td>
+    </tr>
+    <tr>
+      <td>OBS 장면 제어</td>
+      <td className="trial-cell">1개만 생성 가능</td>
+      <td className="pro-cell"><span className="dot ok"></span> 수량 제한 없음</td>
+    </tr>
+    <tr>
+      <td>새 팔로워 알림</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>시청자 생일 알림</td>
+      <td className="trial-cell">체험판은 최대 3명</td>
+      <td className="pro-cell"><span className="dot ok"></span> 수량 제한 없음</td>
+    </tr>
+    <tr>
+      <td>채팅 봇</td>
+      <td className="trial-cell">체험판: 정기 메시지와 키워드 응답은 각각 1개까지이며, 메시지 끝에 (by StreamToolkit)가 붙습니다.</td>
       <td className="pro-cell"><span className="dot ok"></span> 수량 제한 없음</td>
     </tr>
   </tbody>

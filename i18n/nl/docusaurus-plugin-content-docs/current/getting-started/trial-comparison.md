@@ -86,7 +86,7 @@ Stream Toolkit biedt een **gratis proefversie** en een **volledige versie**. De 
     </tr>
     <tr>
       <td>Emote-muur</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Watermerk bij weergave van emotes</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit biedt een **gratis proefversie** en een **volledige versie**. De 
     <tr>
       <td>Media Board (Afbeeldingen / Video's / Geluiden)</td>
       <td className="trial-cell">Kan van elk slechts 1 toevoegen</td>
+      <td className="pro-cell"><span className="dot ok"></span> Geen kwantiteitslimiet</td>
+    </tr>
+    <tr>
+      <td>OBS-scènebediening</td>
+      <td className="trial-cell">Kan er slechts 1 maken</td>
+      <td className="pro-cell"><span className="dot ok"></span> Geen kwantiteitslimiet</td>
+    </tr>
+    <tr>
+      <td>Meldingen nieuwe volgers</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Verjaardagen van kijkers</td>
+      <td className="trial-cell">Demo: max. 3 kijkers</td>
+      <td className="pro-cell"><span className="dot ok"></span> Geen kwantiteitslimiet</td>
+    </tr>
+    <tr>
+      <td>Chatbot</td>
+      <td className="trial-cell">Demo: 1 getimed bericht en 1 antwoord op een trefwoord; berichten eindigen met (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Geen kwantiteitslimiet</td>
     </tr>
   </tbody>

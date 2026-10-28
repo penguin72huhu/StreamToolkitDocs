@@ -166,3 +166,14 @@
 .edition-table tbody tr:last-child td {
   border-bottom: none;
 }
+
+/* h4 = sub-label inside a step; keep it tight to its content */
+.markdown h4 {
+  margin-bottom: 0.25rem;
+}
+
+/* platform logo inline with text */
+.inline-icon {
+  height: 1.2em;
+  vertical-align: -0.25em;
+}

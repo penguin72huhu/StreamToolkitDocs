@@ -86,7 +86,7 @@ Stream Toolkit 提供**免費試用版**與**正式版**。試用版沒有時間
     </tr>
     <tr>
       <td>表情符號牆</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">有表情時出現浮水印</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit 提供**免費試用版**與**正式版**。試用版沒有時間
     <tr>
       <td>實況效果板（圖片 / 影片 / 音效）</td>
       <td className="trial-cell">僅各可新增 1 個</td>
+      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+    </tr>
+    <tr>
+      <td>OBS場景控制</td>
+      <td className="trial-cell">僅可建立 1 個</td>
+      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+    </tr>
+    <tr>
+      <td>新粉絲通知</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>粉絲生日通知</td>
+      <td className="trial-cell">試用版最多 3 位</td>
+      <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
+    </tr>
+    <tr>
+      <td>聊天機器人</td>
+      <td className="trial-cell">試用版：定時留言、關鍵字回覆各限 1 條，訊息結尾會加上 (by StreamToolkit)。</td>
       <td className="pro-cell"><span className="dot ok"></span> 無數量限制</td>
     </tr>
   </tbody>

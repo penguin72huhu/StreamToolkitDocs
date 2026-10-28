@@ -86,7 +86,7 @@ Stream Toolkit offers a **free trial version** and a **full version**. The trial
     </tr>
     <tr>
       <td>Emote Wall</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Watermark shown when emotes appear</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit offers a **free trial version** and a **full version**. The trial
     <tr>
       <td>Media Board (Images / Videos / Sounds)</td>
       <td className="trial-cell">Can only add 1 of each</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
+    </tr>
+    <tr>
+      <td>OBS Scene Control</td>
+      <td className="trial-cell">Can only create 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
+    </tr>
+    <tr>
+      <td>New Follower Alerts</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Viewer Birthday Alerts</td>
+      <td className="trial-cell">Demo: up to 3 viewers</td>
+      <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
+    </tr>
+    <tr>
+      <td>Chat Bot</td>
+      <td className="trial-cell">Demo: 1 timed message and 1 keyword reply; messages end with (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> No quantity limit</td>
     </tr>
   </tbody>

@@ -86,7 +86,7 @@ Stream Toolkit предлагает **бесплатную пробную вер
     </tr>
     <tr>
       <td>Стена эмоций</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">При показе эмоций появляется водяной знак</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit предлагает **бесплатную пробную вер
     <tr>
       <td>Media Board (Изображения / Видео / Звуки)</td>
       <td className="trial-cell">Можно добавить только по 1 каждого вида</td>
+      <td className="pro-cell"><span className="dot ok"></span> Без ограничений по количеству</td>
+    </tr>
+    <tr>
+      <td>Управление сценами OBS</td>
+      <td className="trial-cell">Можно создать только 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Без ограничений по количеству</td>
+    </tr>
+    <tr>
+      <td>Оповещения о новых подписчиках</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Дни рождения зрителей</td>
+      <td className="trial-cell">Демо: до 3 зрителей</td>
+      <td className="pro-cell"><span className="dot ok"></span> Без ограничений по количеству</td>
+    </tr>
+    <tr>
+      <td>Чат-бот</td>
+      <td className="trial-cell">Демо: 1 сообщение по таймеру и 1 ответ на команду; в конце сообщений добавляется (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Без ограничений по количеству</td>
     </tr>
   </tbody>

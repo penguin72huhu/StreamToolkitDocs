@@ -86,7 +86,7 @@ Stream Toolkit มี **เวอร์ชันทดลองใช้งา�
     </tr>
     <tr>
       <td>กำแพงอิโมจิ</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">มีลายน้ำเมื่อแสดงอิโมจิ</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit มี **เวอร์ชันทดลองใช้งา�
     <tr>
       <td>Media Board (รูปภาพ / วิดีโอ / เสียง)</td>
       <td className="trial-cell">เพิ่มได้เพียงอย่างละ 1 อันเท่านั้น</td>
+      <td className="pro-cell"><span className="dot ok"></span> ไม่จำกัดจำนวน</td>
+    </tr>
+    <tr>
+      <td>ควบคุมฉาก OBS</td>
+      <td className="trial-cell">สร้างได้เพียง 1 อันเท่านั้น</td>
+      <td className="pro-cell"><span className="dot ok"></span> ไม่จำกัดจำนวน</td>
+    </tr>
+    <tr>
+      <td>แจ้งเตือนผู้ติดตามใหม่</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>แจ้งเตือนวันเกิดผู้ชม</td>
+      <td className="trial-cell">รุ่นทดลอง: สูงสุด 3 คน</td>
+      <td className="pro-cell"><span className="dot ok"></span> ไม่จำกัดจำนวน</td>
+    </tr>
+    <tr>
+      <td>แชทบอท</td>
+      <td className="trial-cell">เดโม: ข้อความตั้งเวลาและการตอบกลับตามคีย์เวิร์ดอย่างละ 1 รายการ และท้ายข้อความจะมี (by StreamToolkit)</td>
       <td className="pro-cell"><span className="dot ok"></span> ไม่จำกัดจำนวน</td>
     </tr>
   </tbody>

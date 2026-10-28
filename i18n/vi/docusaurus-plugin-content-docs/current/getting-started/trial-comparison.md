@@ -86,7 +86,7 @@ Stream Toolkit cung cấp **phiên bản dùng thử miễn phí** và **phiên 
     </tr>
     <tr>
       <td>Tường biểu cảm</td>
-      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="trial-cell">Xuất hiện hình mờ khi hiển thị biểu cảm</td>
       <td className="pro-cell"><span className="dot ok"></span></td>
     </tr>
     <tr>
@@ -117,6 +117,26 @@ Stream Toolkit cung cấp **phiên bản dùng thử miễn phí** và **phiên 
     <tr>
       <td>Media Board (Hình ảnh / Video / Âm thanh)</td>
       <td className="trial-cell">Chỉ có thể thêm 1 mục cho mỗi loại</td>
+      <td className="pro-cell"><span className="dot ok"></span> Không giới hạn số lượng</td>
+    </tr>
+    <tr>
+      <td>Điều khiển cảnh OBS</td>
+      <td className="trial-cell">Chỉ có thể tạo 1</td>
+      <td className="pro-cell"><span className="dot ok"></span> Không giới hạn số lượng</td>
+    </tr>
+    <tr>
+      <td>Thông báo người theo dõi mới</td>
+      <td className="trial-cell"><span className="dot ok"></span></td>
+      <td className="pro-cell"><span className="dot ok"></span></td>
+    </tr>
+    <tr>
+      <td>Thông báo sinh nhật người xem</td>
+      <td className="trial-cell">Bản dùng thử: tối đa 3 người</td>
+      <td className="pro-cell"><span className="dot ok"></span> Không giới hạn số lượng</td>
+    </tr>
+    <tr>
+      <td>Bot trò chuyện</td>
+      <td className="trial-cell">Bản dùng thử: 1 tin nhắn định kỳ và 1 trả lời theo từ khóa; cuối tin nhắn sẽ có (by StreamToolkit).</td>
       <td className="pro-cell"><span className="dot ok"></span> Không giới hạn số lượng</td>
     </tr>
   </tbody>
