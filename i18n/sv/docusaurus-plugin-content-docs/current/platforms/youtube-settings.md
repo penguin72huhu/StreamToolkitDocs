@@ -2,24 +2,32 @@
 sidebar_position: 2
 ---
 
-# YouTube Inställningar (ny)
+# YouTube-inställningar (ny)
 
-Stream Toolkit ansluter din YouTube-kanal genom inloggning med Google, så du behöver inte skapa eller fylla i någon API-nyckel.
+Stream Toolkit ansluter din YouTube-kanal genom inloggning med Google, så du behöver inte skapa eller ange någon API-nyckel.
 
 ## Steg 1: Anslut YouTube-konto
 
 1. Öppna Stream Toolkit
-2. Klicka på **Inställningar** i den nedre vänstra menyn
-3. Hitta **YouTube** under Plattformanslutningar och klicka på **Anslut konto**
-4. Ett bekräftelsefönster öppnas. Läs YouTubes användarvillkor och integritetspolicyn och klicka på **Godkänn och logga in**
-5. Webbläsaren öppnar Googles inloggningssida. Välj Google-kontot som äger din YouTube-kanal (har kontot flera kanaler väljer du den du streamar på)
+2. Klicka på **Inställningar** i menyn nere till vänster
+3. Hitta **YouTube** under **Plattformsanslutning** och klicka på **Anslut konto**
+
+   ![Anslut konto](./youtube-settings-img/1-not-linked.png)
+
+4. Ett bekräftelsefönster öppnas. Läs YouTubes användarvillkor och integritetspolicy och klicka sedan på **Godkänn och logga in**
+
+   ![Godkänn och logga in](./youtube-settings-img/2-consent.png)
+
+5. Webbläsaren öppnar Googles inloggningssida. Välj det Google-konto som äger din YouTube-kanal (om kontot har flera kanaler väljer du den du streamar på)
 6. Granska de begärda behörigheterna och klicka på **Fortsätt** / **Tillåt**
 
-När det är klart visar YouTube i Inställningar **Ansluten: kanalnamn**.
+När det är klart visar YouTube-raden i Inställningar **Ansluten: kanalnamn**.
+
+![Ansluten](./youtube-settings-img/3-linked.png)
 
 ## Koppla från
 
-Klicka på **Koppla från** bredvid YouTube. Stream Toolkits åtkomst tas också bort från ditt Google-konto.
+Klicka på **Koppla från** bredvid YouTube. Då tas även Stream Toolkits åtkomst bort från ditt Google-konto.
 
 ## Vanliga frågor
 
@@ -27,7 +35,7 @@ Klicka på **Koppla från** bredvid YouTube. Stream Toolkits åtkomst tas också
 Nej. Det räcker att logga in med Google.
 
 **Q: Jag loggade in med fel kanal**
-Klicka på **Koppla från** och anslut igen med rätt konto eller kanal.
+Klicka på **Koppla från**, anslut sedan igen och välj rätt konto eller kanal.
 
 **Q: Inget händer efter inloggningen i webbläsaren**
-Ha Stream Toolkit öppet medan du loggar in – webbläsaren skickar tillbaka resultatet. Händer inget ändå, klicka på Anslut konto igen.
+Låt Stream Toolkit vara öppet medan du loggar in — webbläsaren skickar tillbaka resultatet till appen. Om inget uppdateras ändå klickar du på **Anslut konto** igen.
